@@ -74,7 +74,7 @@
             "Key": "2425850a-cfd8-494b-8013-973e9379836c",
             "Value": {
                 "id": "660f5051-7dd2-42d6-82b2-869d925d1241",
-                "resourcePath": "scripts\\makeAir\\makeAir.yy",
+                "resourcePath": "scripts\\makeAttack\\makeAttack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -124,14 +124,6 @@
                 "id": "d1a347f4-d113-4132-b14a-2c7b0c243ab0",
                 "resourcePath": "views\\4e436342-cec4-4f5c-a4de-88eee197f1ea.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "587345c8-b406-499f-9e58-253829edf000",
-            "Value": {
-                "id": "39902d27-33db-4cd6-90b2-40d88a84d632",
-                "resourcePath": "sprites\\spr_air_big\\spr_air_big.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,14 +199,6 @@
             }
         },
         {
-            "Key": "91e24d92-9f88-4860-b61c-d502bc8e87b4",
-            "Value": {
-                "id": "92c20329-b664-48cf-a762-d23e72124642",
-                "resourcePath": "objects\\obj_air_big\\obj_air_big.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9391713c-d6e7-43be-b4a3-47c57af27434",
             "Value": {
                 "id": "d4093203-e8d4-4180-9ed5-4d6b0f56de9f",
@@ -260,6 +244,14 @@
                 "id": "831bab16-55cd-47da-94c1-1d959d06d39f",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "c592e983-3bc4-482f-9a1f-5c862c3d7198",
+            "Value": {
+                "id": "a0619b7d-4987-4c13-b2ec-5fe0d33abe9b",
+                "resourcePath": "sprites\\spr_air_dying\\spr_air_dying.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

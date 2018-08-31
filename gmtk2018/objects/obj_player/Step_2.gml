@@ -246,14 +246,14 @@ if(timeSinceAttack > 0 || grabRight || grabLeft)
 
 if(fastDown && fastReleased && attackReady)
 {
-	makeAir(obj_air);
+	makeAttack(obj_air);
 	fastReleased = 0;
 	timeSinceAttack = fastAttackDelay;
 	attackReady = 0;
 }
 if(slowDown && slowReleased && attackReady)
 {
-	makeAir(obj_air_big);
+	makeAttack(obj_air);
 	slowReleased = 0;
 	timeSinceAttack = slowAttackDelay;
 	attackReady = 0;

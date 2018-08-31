@@ -4,3 +4,5 @@ maxTimeAlive = 80;
 facing = -1; //+1 is right, -1 is left; should be set by makeAir script.
 hspeedBase = 64;
 hitEffect = 64;
+verticalHitEffect = 16;
+dying = 0;
