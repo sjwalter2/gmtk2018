@@ -6,4 +6,5 @@ global.dropKey = "E"
 global.specialKey = "Q"
 global.jumpKey = vk_space
 global.sprintKey = vk_lshift
-
+global.slowKey = "K"
+global.fastKey = "J"

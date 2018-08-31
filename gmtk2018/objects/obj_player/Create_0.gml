@@ -9,6 +9,10 @@ upDown = 0
 jumpDown = 0
 jumpReleased = 1
 sprintDown = 0
+slowDown = 0
+fastDown = 0
+slowReleased = 1;
+fastReleased = 1;
 
 fallTimer = 0
 fallTime = 4
@@ -32,3 +36,11 @@ grav = 3.5
 stunned = 0
 maxStunTime = 50
 stunTime = 50
+
+facing = 1; //1 is right, -1 is left
+
+timeSinceAttack = 0;
+slowAttackDelay = 30;
+fastAttackDelay = 15;
+
+airKnockback = 30;

@@ -21,6 +21,18 @@ if(keyCheck(global.jumpKey, 0))
 if(keyCheck(global.sprintKey, 1))
 	sprintDown = 1
 
+if(keyCheck(global.slowKey, 1))
+	slowDown = 1
+	
+if(keyCheck(global.slowKey, 0))
+	slowReleased = 1
+	
+if(keyCheck(global.fastKey, 1))
+	fastDown = 1
+
+if(keyCheck(global.fastKey, 0))
+	fastReleased = 1
+
 //check on ground for friction
 if place_meeting(x,y+1,obj_platform)
 {
@@ -213,6 +225,40 @@ else
 
 if(downDown && !onGround && vspeed < fallSpeed)
 	vspeed += fastFall;
+
+//Determine facing
+if rightDown && !leftDown{
+	facing = 1;
+} else if !rightDown && leftDown{
+	facing = -1;
+}
+
+//Handle Attacks
+//slow attacks set the timer to some high amount
+//fast attacks set the timer to some low amount
+//you can only attack if the tiemr is at 0 or lower; decrements each Step
+
+timeSinceAttack -= 1;
+
+var attackReady = 1;
+if(timeSinceAttack > 0 || grabRight || grabLeft)
+	attackReady = 0;
+
+if(fastDown && fastReleased && attackReady)
+{
+	makeAir(obj_air);
+	fastReleased = 0;
+	timeSinceAttack = fastAttackDelay;
+	attackReady = 0;
+}
+if(slowDown && slowReleased && attackReady)
+{
+	makeAir(obj_air_big);
+	slowReleased = 0;
+	timeSinceAttack = slowAttackDelay;
+	attackReady = 0;
+}
+
 leftDown = 0
 rightDown = 0
 jumpDown = 0
@@ -220,3 +266,7 @@ upDown = 0
 downDown = 0
 sprintDown = 0
 onGround = 0
+slowDown = 0
+fastDown = 0
+
+
