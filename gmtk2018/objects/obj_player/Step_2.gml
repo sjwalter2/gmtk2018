@@ -257,7 +257,9 @@ if((currentSprite = spr_playerJumpStart || currentSprite = spr_playerWallJumpSta
 		currentImageDirection = -currentImageDirection	
 	}
 	if(vspeed < 0)
+	{
 		vspeed = -hopSpeed
+	}
 	else
 	{
 		vspeed -= hopSpeed
