@@ -238,7 +238,10 @@ if((currentSprite = spr_playerJumpStart || currentSprite = spr_playerWallJumpSta
 	if(vspeed < 0)
 		vspeed = -hopSpeed
 	else
+	{
 		vspeed -= hopSpeed
+		audio_play_sound(snd_jump,0,0);
+	}
 	grabRight = 0
 	grabLeft = 0
 	jumpReleased = 0
