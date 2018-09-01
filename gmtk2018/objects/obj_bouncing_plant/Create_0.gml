@@ -5,7 +5,7 @@ facing = -1; //+1 is right, -1 is left; should be set by makeAir script.
 hspeedBase = 64;
 hitEffect = 64;
 landed = 0;
-grav = 3.5;
+grav = 3;
 dying = 0;
 creator = 0;
 alarm_set(0,1);

@@ -7,3 +7,4 @@ hitEffect = 90;
 dying = 0;
 creator = 0;
 pushTime = 5;
+alarm_set(0,1)

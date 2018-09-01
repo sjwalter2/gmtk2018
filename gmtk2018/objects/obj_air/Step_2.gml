@@ -22,8 +22,6 @@ if(!dying){
 		sprite_index = spr_air_dying;
 		dying = 1;
 		timeAlive = 0;
-	} else {
-		hspeed = hspeedBase * facing;
 	}
 
 	//collision with player
