@@ -20,8 +20,6 @@ if(!dying){
 						x++
 			}
 			hspeed = 0;
-		} else {
-			hspeed = hspeedBase * facing;
 		}
 
 		//vertical collision

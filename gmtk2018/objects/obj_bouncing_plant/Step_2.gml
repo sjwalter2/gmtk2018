@@ -21,10 +21,8 @@ if(!dying){
 						x++
 			}
 			hspeed = 0;
-		} else {
-			hspeed = hspeedBase * facing;
 		}
-
+		
 		//vertical collision
 		vspeed += grav;
 		if place_meeting(x,y+vspeed,obj_platform)
