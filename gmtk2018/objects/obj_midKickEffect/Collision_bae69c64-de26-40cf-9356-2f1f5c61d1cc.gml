@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if(other.id != creator)
 {
+	hitSound();
 	if(creator.currentEle = "fire")
 	{
 	with(other)
