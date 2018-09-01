@@ -9,7 +9,7 @@ if(other.id != creator)
 	with(other)
 		{
 			onFire = 1;
-			alarm_set(3,8+alarm_get(3));
+			alarm_set(3,20+alarm_get(3));
 		}
 	}
 	with(other)
