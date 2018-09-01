@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0a086eea-a46d-48e5-b277-0cedf41a7db1",
+            "Value": {
+                "id": "17f078ff-220d-4a1b-8109-5e2b87e34593",
+                "resourcePath": "scripts\\setElement\\setElement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "119e66a4-5b44-4257-a055-184b537712e5",
             "Value": {
                 "id": "6c86d0aa-9e71-48ec-bd51-fb945dc8f480",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "77564f7a-69d9-4d7a-9b7b-fb30efcbb57f",
+            "Value": {
+                "id": "d1157901-adc6-4e17-95d7-cdc5e7176798",
+                "resourcePath": "sprites\\spr_water_pickup\\spr_water_pickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "82abdba3-8b0b-4aaa-8ea1-f36f7db21ab0",
             "Value": {
                 "id": "e77d4620-c8f7-4a13-927f-997db7550136",
@@ -252,6 +268,14 @@
                 "id": "91ab486a-55c2-48cf-b6ee-787e81a27779",
                 "resourcePath": "scripts\\joystickControls\\joystickControls.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9ff1007a-9c91-4616-b421-f78c7d845ae8",
+            "Value": {
+                "id": "456c3286-e2b0-472a-9655-236ed99c6bc3",
+                "resourcePath": "objects\\obj_pickup\\obj_pickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -349,13 +373,22 @@
                 "resourcePath": "views\\f58c4141-b227-4896-9b9b-6d1704e25770.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fefb2681-f1b8-41a8-bfb7-db09cd2c57b4",
+            "Value": {
+                "id": "79f2f0af-e714-4806-be44-7456f7ebf4d1",
+                "resourcePath": "sprites\\spr_air_pickup\\spr_air_pickup.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
         "91931e12-023f-48d7-a8d4-667fa5634260",
         "94b15c41-61e0-4a57-b0a2-4c1a1ebf7674",
         "2425850a-cfd8-494b-8013-973e9379836c",
-        "9f411c18-973c-4e9e-a201-7e02121ffdbe"
+        "9f411c18-973c-4e9e-a201-7e02121ffdbe",
+        "0a086eea-a46d-48e5-b277-0cedf41a7db1"
     ],
     "tutorial": ""
 }
