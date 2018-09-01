@@ -6,3 +6,10 @@ x = respawn.x;
 y = respawn.y;
 hspeed = 0;
 vspeed = 0;
+onFire = 0;
+alarm_set(3,-1);
+stunned = 0;
+alarm_set(4,-1);
+
+setElement(0);
+setElement(0);
