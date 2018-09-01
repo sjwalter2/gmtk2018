@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if(playerNumber = 0)
+{
 if(keyCheck(global.leftKey, 1))
 	leftDown = 1
 
@@ -32,6 +35,13 @@ if(keyCheck(global.fastKey, 1))
 
 if(keyCheck(global.fastKey, 0))
 	fastReleased = 1
+
+}
+else
+{
+	joystickControls(playerNumber-1)
+}
+
 
 //check on ground for friction
 if place_meeting(x,y+1,obj_platform)
