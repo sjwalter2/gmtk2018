@@ -26,7 +26,14 @@ else if ele0 == "water"
 }
 else if ele0 == "fire"
 {
-	
+	if ele1 == "fire" || ele1 == 0
+		currentEle = "fire";
+	else if ele1 == "air"
+		currentEle = "lightning";
+	else if ele1 == "water"
+		currentEle = 0;
+	else if ele1 == "earth"
+		currentEle = "lava";	
 }
 else if ele0 == "earth"
 {
@@ -46,6 +53,10 @@ switch currentEle{
 	case "ice":
 		fastAttackObj = obj_air;
 		slowAttackObj = obj_ice;
+		break;
+	case "fire":
+		fastAttackObj = obj_fire;
+		slowAttackObj = obj_fire;
 		break;
 	default:
 		currentEle = 0;

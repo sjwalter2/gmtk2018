@@ -67,8 +67,17 @@ if(stunned)
 	grabLeft = 0
 	grabRight = 0
 	friction = 0
+} else if(onFire) //forcedrun on fire
+{
+	switch facing{
+		case -1:
+			leftDown = 1;
+			break;
+		case 1:
+			rightDown = 1;
+			break;
+	}
 }
-
 
 //crouch
 if(onGround && downDown)
