@@ -1,6 +1,5 @@
 /// @description Insert description here
 
-
 if(!dying){
 	if(!landed){
 		//horizontal collision

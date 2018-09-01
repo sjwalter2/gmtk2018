@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if(playerNumber = 0)
 {
 if(keyCheck(global.leftKey, 1))

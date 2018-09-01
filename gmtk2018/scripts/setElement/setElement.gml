@@ -99,7 +99,7 @@ switch currentEle{
 		slowAttackObj = obj_ice;
 		break;
 	case "ice":
-		fastAttackObj = obj_air;
+		fastAttackObj = obj_icicle;
 		slowAttackObj = obj_ice;
 		break;
 	case "lightning":
