@@ -253,7 +253,7 @@ if(fastDown && fastReleased && attackReady)
 }
 if(slowDown && slowReleased && attackReady)
 {
-	makeAttack(obj_ice);
+	makeAttack(obj_air_wall);
 	slowReleased = 0;
 	timeSinceAttack = slowAttackDelay;
 	attackReady = 0;
