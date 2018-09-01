@@ -20,12 +20,13 @@ if(!dying){
 						x++
 			}
 			hspeed = 0;
+			dying = 1;
+			timeAlive = 0;
 		} else {
 			hspeed = hspeedBase * facing;
 		}
 
 		//vertical collision
-		vspeed += grav;
 		if place_meeting(x,y+vspeed,obj_platform)
 		{
 			if(sign(vspeed)==1 )
@@ -50,6 +51,6 @@ if(!dying){
 		}
 } else {
 	timeAlive += 1;
-	if timeAlive >= 15
+	if timeAlive >= 8
 		instance_destroy();
 }

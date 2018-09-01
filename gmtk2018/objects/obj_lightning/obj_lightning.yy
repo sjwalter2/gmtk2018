@@ -2,7 +2,7 @@
     "id": "fdbcac38-4239-472b-ac2e-ce64b717077b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_fire",
+    "name": "obj_lightning",
     "eventList": [
         {
             "id": "75ac6d2a-5e75-4bc7-b13d-c5209a10cf76",

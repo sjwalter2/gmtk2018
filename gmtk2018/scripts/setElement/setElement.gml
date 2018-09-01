@@ -54,9 +54,9 @@ switch currentEle{
 		fastAttackObj = obj_air;
 		slowAttackObj = obj_ice;
 		break;
-	case "fire":
-		fastAttackObj = obj_fire;
-		slowAttackObj = obj_fire;
+	case "lightning":
+		fastAttackObj = obj_lightning;
+		slowAttackObj = obj_lightning;
 		break;
 	default:
 		currentEle = 0;
