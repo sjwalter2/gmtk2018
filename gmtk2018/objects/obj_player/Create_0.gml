@@ -45,11 +45,13 @@ timeSinceAttack = 0;
 slowAttackDelay = 30;
 fastAttackDelay = 15;
 
+ele0 = 0; //newest element picked up
+ele1 = 0; //oldest element picked up
+currentEle = 0; //this is the element that's actually used in attacks. set by "setElement"
+fastAttackObj = 0;
+slowAttackObj = 0;
+
 airKnockback = 30;
 
-alarm_set(1,-1);
 
-currentSprite = spr_playerIdle;
-currentImageIndex = 0;
-currentImageDirection = 1;
-alarm_set(2,room_speed/sprite_get_speed(currentSprite))
+alarm_set(1,-1);

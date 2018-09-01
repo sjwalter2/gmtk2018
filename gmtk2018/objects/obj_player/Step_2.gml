@@ -256,14 +256,14 @@ if(timeSinceAttack > 0 || grabRight || grabLeft)
 
 if(currentSprite = spr_playerMidPunch && currentImageIndex = 7)
 {
-	makeAttack(obj_air);
+	makeAttack(fastAttackObj);
 	fastReleased = 0;
 	timeSinceAttack = fastAttackDelay;
 	attackReady = 0;
 }
 if(slowDown && slowReleased && attackReady)
 {
-	makeAttack(obj_air_wall);
+	makeAttack(slowAttackObj);
 	slowReleased = 0;
 	timeSinceAttack = slowAttackDelay;
 	attackReady = 0;
