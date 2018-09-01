@@ -29,6 +29,7 @@ if(!dying){
 			if(sign(vspeed)==1 )
 			{
 				landed = 1;
+				hitSound();
 			}
 			while !place_meeting(x,y+sign(vspeed),obj_platform)
 		    {

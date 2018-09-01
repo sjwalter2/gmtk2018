@@ -20,6 +20,7 @@ if(!dying){
 					x++
 		}
 		sprite_index = spr_air_dying;
+		hitSound();
 		dying = 1;
 		timeAlive = 0;
 	}

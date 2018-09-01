@@ -5,6 +5,7 @@ if(other.id != creator)
 	hitSound();
 	if(creator.currentEle = "fire")
 	{
+	currentEle = "fire";
 	with(other)
 		{
 			onFire = 1;

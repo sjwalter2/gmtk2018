@@ -7,3 +7,4 @@ hitEffect = 32;
 dying = 0;
 creator = 0;
 pushTime=5;
+currentEle = "air";

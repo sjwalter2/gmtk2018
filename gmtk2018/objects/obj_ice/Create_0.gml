@@ -10,3 +10,4 @@ freezeTime = 50;
 creator = 0;
 alarm_set(0,1);
 depth = -20;
+currentEle = "ice";
