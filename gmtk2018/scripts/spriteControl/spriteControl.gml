@@ -52,15 +52,16 @@ else if(!downDown && (currentSprite = spr_playerEnterCrouch || currentSprite = s
 	currentImageIndex = 0;
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 }
-
-if(jumpReady && jumpDown && jumpReleased && onGround && currentSprite != spr_playerJumpStart && currentSprite != spr_playerJumpIdle)
+ if(jumpReady && jumpDown && jumpReleased && !(grabLeft || grabRight) && currentSprite != spr_playerJumpStart && currentSprite != spr_playerJumpIdle)
 {
+	jumpReady = 0;
 	currentSprite = spr_playerJumpStart	
 	currentImageIndex = 0;
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 }
 if(jumpReady && jumpDown && jumpReleased && (grabLeft || grabRight) && currentSprite != spr_playerWallJumpStart && currentSprite != spr_playerJumpIdle)
 {
+	jumpReady = 0;
 	currentSprite = spr_playerWallJumpStart	
 	currentImageIndex = 0;
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))

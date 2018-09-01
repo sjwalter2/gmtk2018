@@ -20,6 +20,7 @@ fallTimer = 0
 fallTime = 4
 fastFall = 10
 jumpTime = 4
+jumpReady = 0
 hopSpeed = 50
 jumpSpeed = 25
 onGround = 0

@@ -196,9 +196,9 @@ if(downDown)
 
 
 //jumping
-jumpReady = 0
 
-if(alarm_get(0) > 0)
+
+if(alarm_get(0) > 0 || onGround)
 {
 	jumpReady = 1
 }
@@ -212,6 +212,8 @@ if(grabRight || grabLeft)
 //vertical collision
 if((currentSprite = spr_playerJumpStart || currentSprite = spr_playerWallJumpStart  )&& currentImageIndex = 2)
 {
+	if(currentSprite = spr_playerWallJumpStart && (grabLeft || grabRight))
+		hspeed = -hopSpeed/2 * currentImageDirection;
 	if(vspeed < 0)
 		vspeed = -hopSpeed
 	else
