@@ -44,7 +44,10 @@ if(!dying){
 					x++
 		}
 		inst.hspeed += (facing*hitEffect);
-		inst.vspeed -= verticalHitEffect;
+		inst.fric = 0;
+		with inst{
+			alarm_set(1,other.pushTime+alarm_get(1))	
+		}
 		sprite_index = spr_air_dying;
 		dying = 1;
 		timeAlive = 0;
