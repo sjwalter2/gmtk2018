@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "37e0c6fb-4fab-4f37-a5d4-ee61ae86dff7",
+            "Value": {
+                "id": "b994a91e-7296-4bcc-adcf-10103aac0d01",
+                "resourcePath": "sprites\\spr_playerEnterCrouch\\spr_playerEnterCrouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a4831e9-a460-4764-9d14-dddd91af2ab0",
             "Value": {
                 "id": "9ff5a7fe-78d1-4c18-aba8-32243f3060fd",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "c9446006-1f70-43e1-814c-423864ef68d8",
+            "Value": {
+                "id": "d24f2b1d-0548-4a7d-9e32-b9a5574bb198",
+                "resourcePath": "sprites\\spr_playerCrouchIdle\\spr_playerCrouchIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "c2d0a8a0-914b-4cec-b35e-0d8d091d98c7",
@@ -404,6 +420,14 @@
                 "id": "e22b4f97-6242-46e0-acb6-56d44b6c100e",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "ec8c61d9-94af-4e0d-84fd-08ab95665e04",
+            "Value": {
+                "id": "4f615677-5c4c-41d5-a0fa-4a997c3ad5a6",
+                "resourcePath": "sprites\\spr_playerExitCrouch\\spr_playerExitCrouch.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

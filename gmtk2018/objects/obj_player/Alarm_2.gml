@@ -3,10 +3,15 @@
 
 currentImageIndex++;
 
-if(currentImageIndex > sprite_get_number(currentSprite) && currentSprite != spr_playerIdle)
+if(currentImageIndex >= sprite_get_number(currentSprite) && currentSprite != spr_playerIdle && currentSprite != spr_playerEnterCrouch && currentSprite != spr_playerCrouchIdle)
 {
 	currentSprite = spr_playerIdle
 	currentImageIndex = 0;	
+}
+else if(currentImageIndex >= sprite_get_number(currentSprite) && currentSprite = spr_playerEnterCrouch)
+{
+	currentSprite = spr_playerCrouchIdle
+	currentImageIndex = 0;		
 }
 	
 
