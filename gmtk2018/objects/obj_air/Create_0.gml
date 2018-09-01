@@ -7,4 +7,6 @@ hitEffect = 90;
 dying = 0;
 creator = 0;
 pushTime = 5;
+
+audio_play_sound(snd_air,0,0);
 alarm_set(0,1)

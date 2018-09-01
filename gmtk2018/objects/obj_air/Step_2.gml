@@ -27,6 +27,7 @@ if(!dying){
 	//collision with player
 	if place_meeting(x+hspeed,y,obj_player) && instance_place(x+hspeed,y,obj_player) != creator
 	{
+		hitSound()
 		var inst = instance_place (x+hspeed,y,obj_player)
 		while !place_meeting(x+sign(hspeed),y,obj_player)
 	      {
