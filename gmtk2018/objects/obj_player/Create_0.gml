@@ -40,7 +40,7 @@ stunned = 0
 maxStunTime = 50
 stunTime = 50
 
-onFire = 0
+onFire = 0;
 
 facing = 1; //1 is right, -1 is left
 

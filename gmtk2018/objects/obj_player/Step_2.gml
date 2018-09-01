@@ -55,7 +55,7 @@ else
 }
 
 
-//no input if stunned
+//no input if stunned or onFire
 if(stunned)
 {
 	leftDown = 0
@@ -67,14 +67,17 @@ if(stunned)
 	grabLeft = 0
 	grabRight = 0
 	friction = 0
-} else if(onFire) //forcedrun on fire
+}
+if(onFire) //forcedrun on fire
 {
 	switch facing{
 		case -1:
 			leftDown = 1;
+			rightDown = 0;
 			break;
 		case 1:
 			rightDown = 1;
+			leftDown = 0;
 			break;
 	}
 }
@@ -175,6 +178,14 @@ if place_meeting(x+hspeed,y,obj_platform) && !stunned
       {
            x+=sign(hspeed);
       }
+	if onFire
+	{
+		facing = (facing * -1);
+		if leftDown == 1
+			leftDown = 0
+		if rightDown == 1
+			rightDown = 0
+	}
 	if place_meeting(x,y,obj_platform)
 	{
 		var inst = instance_place(x,y,obj_platform)
