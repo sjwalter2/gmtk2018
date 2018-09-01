@@ -21,3 +21,7 @@ switch seed{
 		sprite_index = spr_earth_pickup;
 		break;
 }
+grav = 1;
+maxfallspeed = 10;
+timeAlive = 0;
+maxTimeAlive = 600;
