@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0a151140-380f-4227-b277-4b421321812e",
+            "Value": {
+                "id": "502d5a66-29d4-404e-8391-95a28e8f662c",
+                "resourcePath": "sprites\\spr_playerIdle\\spr_playerIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "119e66a4-5b44-4257-a055-184b537712e5",
             "Value": {
                 "id": "6c86d0aa-9e71-48ec-bd51-fb945dc8f480",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "3c9344d8-1bb3-464e-a0e6-da6364edfd3f",
+            "Value": {
+                "id": "8d0471af-8d37-4b6e-ab7d-7ec577d644e0",
+                "resourcePath": "scripts\\spriteControls\\spriteControls.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4a4831e9-a460-4764-9d14-dddd91af2ab0",
             "Value": {
                 "id": "9ff5a7fe-78d1-4c18-aba8-32243f3060fd",
@@ -188,6 +204,14 @@
                 "id": "ec3dd71b-884b-4d6e-ae26-c5197a980adb",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "85c21d39-507b-4a56-9cef-70d52f2b90ec",
+            "Value": {
+                "id": "8b5fdb32-1fcf-4a86-846c-a6fec2a3b528",
+                "resourcePath": "sprites\\spr_playerRun\\spr_playerRun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "b61e4da8-9284-4fe4-a032-d9ade415962a",
+            "Value": {
+                "id": "63913451-5851-469d-951b-401481bfa221",
+                "resourcePath": "sprites\\spr_playerMidPunch\\spr_playerMidPunch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c592e983-3bc4-482f-9a1f-5c862c3d7198",
             "Value": {
                 "id": "a0619b7d-4987-4c13-b2ec-5fe0d33abe9b",
@@ -355,7 +387,8 @@
         "91931e12-023f-48d7-a8d4-667fa5634260",
         "94b15c41-61e0-4a57-b0a2-4c1a1ebf7674",
         "2425850a-cfd8-494b-8013-973e9379836c",
-        "9f411c18-973c-4e9e-a201-7e02121ffdbe"
+        "9f411c18-973c-4e9e-a201-7e02121ffdbe",
+        "3c9344d8-1bb3-464e-a0e6-da6364edfd3f"
     ],
     "tutorial": ""
 }

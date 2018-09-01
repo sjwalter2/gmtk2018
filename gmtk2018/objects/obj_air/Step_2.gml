@@ -45,6 +45,8 @@ if(!dying){
 		}
 		inst.hspeed += (facing*hitEffect);
 		inst.fric = 0;
+		inst.grabLeft = 0
+		inst.grabRight = 0
 		with inst{
 			alarm_set(1,other.pushTime+alarm_get(1))	
 		}

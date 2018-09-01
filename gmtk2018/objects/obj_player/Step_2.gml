@@ -250,11 +250,11 @@ if rightDown && !leftDown{
 
 timeSinceAttack -= 1;
 
-var attackReady = 1;
+attackReady = 1;
 if(timeSinceAttack > 0 || grabRight || grabLeft)
 	attackReady = 0;
 
-if(fastDown && fastReleased && attackReady)
+if(currentSprite = spr_playerMidPunch && currentImageIndex = 7)
 {
 	makeAttack(obj_air);
 	fastReleased = 0;
@@ -268,6 +268,10 @@ if(slowDown && slowReleased && attackReady)
 	timeSinceAttack = slowAttackDelay;
 	attackReady = 0;
 }
+
+spriteControls();
+
+
 
 leftDown = 0
 rightDown = 0
