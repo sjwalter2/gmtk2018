@@ -6,5 +6,5 @@ hspeedBase = 90;
 hitEffect = 64;
 dying = 0;
 creator = 0;
-stunTime = 8;
+stunTime = 18;
 
