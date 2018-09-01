@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "56cebb62-282e-4090-bc50-8ad6e90d2f3c",
+            "Value": {
+                "id": "204a03ba-4d91-4650-8525-e6b6b5ce54c6",
+                "resourcePath": "sprites\\spr_earth_pickup\\spr_earth_pickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56e5b753-4b68-4083-a011-79627e58ed56",
             "Value": {
                 "id": "f8bdb8a3-bfd0-46ed-8ff0-22b710524b37",
