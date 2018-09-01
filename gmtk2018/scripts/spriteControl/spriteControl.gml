@@ -18,7 +18,7 @@ if(!rightDown && !leftDown && currentSprite = spr_playerRun)
 	currentImageIndex = 0;		
 }
 
-if(fastDown && fastReleased && attackReady && currentSprite != spr_playerMidPunch )
+if(fastDown && fastReleased && attackReady && (currentSprite = spr_playerIdle || currentSprite = spr_playerJumpIdle ))
 {
 	currentSprite = spr_playerMidPunch;
 	var effect =  instance_create_depth(x,y-sprite_height/2,depth-1,obj_midPunchEffect);
@@ -29,7 +29,7 @@ if(fastDown && fastReleased && attackReady && currentSprite != spr_playerMidPunc
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 }
 
-else if(slowDown && slowReleased && attackReady  && currentSprite != spr_playerMidKick )
+else if(slowDown && slowReleased && attackReady  && (currentSprite = spr_playerIdle || currentSprite = spr_playerJumpIdle ))
 {
 	var effect =  instance_create_depth(x,y-sprite_height/2,depth-1,obj_midKickEffect);
 	effect.creator = id;
