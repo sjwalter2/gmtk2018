@@ -7,3 +7,4 @@ hitEffect = 70;
 dying = 0;
 creator = 0;
 pushTime = 4;
+audio_play_sound(snd_icicle_snd,0,0);

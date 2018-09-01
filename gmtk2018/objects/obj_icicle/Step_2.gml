@@ -20,6 +20,7 @@ if(!dying){
 					x++
 		}
 		sprite_index = spr_icicle_dying;
+		audio_play_sound(snd_icicle_hit,0,0);
 		dying = 1;
 		timeAlive = 0;
 	} else {
@@ -51,6 +52,7 @@ if(!dying){
 			alarm_set(1,other.pushTime+alarm_get(1))	
 		}
 		sprite_index = spr_icicle_dying;
+		audio_play_sound(snd_icicle_hit,0,0);
 		dying = 1;
 		timeAlive = 0;
 	} else {
