@@ -1,5 +1,6 @@
 var key = argument0
 var down = argument1
+
 if(is_string(key) && down)
 {	
 	if(keyboard_check(ord(key)))	
@@ -28,3 +29,4 @@ else if(!is_string(key) && !down)
 	else
 		return 0
 }
+

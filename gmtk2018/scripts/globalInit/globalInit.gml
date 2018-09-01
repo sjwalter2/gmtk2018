@@ -1,3 +1,4 @@
+
 global.leftKey = "A" 
 global.rightKey = "D"
 global.upKey = "W"

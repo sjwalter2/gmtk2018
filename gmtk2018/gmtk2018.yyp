@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "9f411c18-973c-4e9e-a201-7e02121ffdbe",
+            "Value": {
+                "id": "91ab486a-55c2-48cf-b6ee-787e81a27779",
+                "resourcePath": "scripts\\joystickControls\\joystickControls.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "4d550757-766a-4b6f-bde9-e6e6f71ce8cd",
@@ -346,7 +354,8 @@
     "script_order": [
         "91931e12-023f-48d7-a8d4-667fa5634260",
         "94b15c41-61e0-4a57-b0a2-4c1a1ebf7674",
-        "2425850a-cfd8-494b-8013-973e9379836c"
+        "2425850a-cfd8-494b-8013-973e9379836c",
+        "9f411c18-973c-4e9e-a201-7e02121ffdbe"
     ],
     "tutorial": ""
 }
