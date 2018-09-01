@@ -145,6 +145,8 @@ if( hspeed > maxSpeed + sprintDown*maxSpeed*.5 && !stunned)
 if(!downDown && sign(vspeed) != -1 && sign(floor(hspeed/5)) != -1 && !position_meeting(bbox_right+grabLength,bbox_top,obj_platform) && position_meeting(bbox_right+grabLength,bbox_top+vspeed*2+5,obj_platform) && !stunned)
 	{
 		var inst = instance_position(bbox_right+grabLength,bbox_top+vspeed*2+5,obj_platform)
+		facing = 1
+		currentImageDirection = 1
 		grabRight = 1	
 		grabLeft = 0
 		vspeed = 0
@@ -156,9 +158,12 @@ if(!downDown && sign(vspeed) != -1 && sign(floor(hspeed/5)) != -1 && !position_m
 		while(bbox_right < inst.bbox_left-1)
 			x++
 	}
+
 if(!downDown && sign(vspeed) != -1 && sign(floor(hspeed/5)) != 1 && !position_meeting(bbox_left-grabLength,bbox_top,obj_platform) && position_meeting(bbox_left-grabLength,bbox_top+vspeed*2+5,obj_platform) && !stunned)
 	{
 		var inst = instance_position(bbox_left-grabLength,bbox_top+vspeed*2+5,obj_platform)
+		facing = -1
+		currentImageDirection = -1
 		grabLeft = 1
 		grabRight = 0
 		vspeed = 0
@@ -170,6 +175,7 @@ if(!downDown && sign(vspeed) != -1 && sign(floor(hspeed/5)) != 1 && !position_me
 		while(bbox_left > inst.bbox_right+1)
 			x--
 	}
+
 
 //horizontal collision
 if place_meeting(x+hspeed,y,obj_platform) && !stunned
