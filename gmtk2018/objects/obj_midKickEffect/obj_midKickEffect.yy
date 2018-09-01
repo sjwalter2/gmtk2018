@@ -5,16 +5,6 @@
     "name": "obj_midKickEffect",
     "eventList": [
         {
-            "id": "0a625274-2394-40d8-8961-5a61813a270a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "7a43715d-4eb3-462e-beba-74d4010a18dd"
-        },
-        {
             "id": "52454347-6ea9-45ef-9250-8eed41bdc537",
             "modelName": "GMEvent",
             "mvc": "1.0",

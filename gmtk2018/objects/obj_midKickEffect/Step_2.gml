@@ -6,3 +6,7 @@ image_xscale = creator.currentImageDirection;
 image_index = creator.currentImageIndex;
 
 
+if (creator.currentImageIndex >= sprite_get_number(sprite_index))
+{
+	instance_destroy()
+}

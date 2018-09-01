@@ -196,7 +196,7 @@ if(downDown)
 
 
 //jumping
-var jumpReady = 0
+jumpReady = 0
 
 if(alarm_get(0) > 0)
 {
@@ -210,7 +210,7 @@ if(grabRight || grabLeft)
 }
 
 //vertical collision
-if(jumpReady && jumpDown && jumpReleased)
+if((currentSprite = spr_playerJumpStart || currentSprite = spr_playerWallJumpStart  )&& currentImageIndex = 2)
 {
 	if(vspeed < 0)
 		vspeed = -hopSpeed
@@ -220,7 +220,6 @@ if(jumpReady && jumpDown && jumpReleased)
 	grabLeft = 0
 	jumpReleased = 0
 	alarm_set(0,0)
-	alarm_set(1,jumpTime)
 }
 
 if place_meeting(x,y+vspeed,obj_platform)

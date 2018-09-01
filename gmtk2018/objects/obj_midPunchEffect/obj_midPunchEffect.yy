@@ -5,16 +5,6 @@
     "name": "obj_midPunchEffect",
     "eventList": [
         {
-            "id": "a5d47949-6ce6-4be3-973f-e21b210dfbfb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "d6a67169-a4e0-4909-b105-413d297ff30f"
-        },
-        {
             "id": "9c25297b-adf3-4e0d-86dd-d059bf52c7a1",
             "modelName": "GMEvent",
             "mvc": "1.0",
