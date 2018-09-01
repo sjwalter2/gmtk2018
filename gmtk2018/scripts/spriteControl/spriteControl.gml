@@ -50,6 +50,12 @@ else if((currentSprite = spr_playerMidKick && currentEle = "lightning" && slowDo
 	currentImageIndex = 2;
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 }
+else if((currentSprite = spr_playerMidPunch && currentEle = "earth" && fastDown && currentImageIndex = 1))
+{
+	currentSprite = spr_playerMidPunch;
+	currentImageIndex = 1;
+	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
+}
 
 else if(downDown && (currentSprite = spr_playerIdle && currentSprite != spr_playerEnterCrouch))
 {

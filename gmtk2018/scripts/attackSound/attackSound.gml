@@ -16,5 +16,9 @@ switch(currentEle)
 	if(!audio_is_playing(snd_plant))
 		audio_play_sound(snd_plant,0,0)
 	break;
+	case "lightning":
+	if(!audio_is_playing(snd_lightning))
+		audio_play_sound(snd_lightning,0,0)
+	break;
 
 }

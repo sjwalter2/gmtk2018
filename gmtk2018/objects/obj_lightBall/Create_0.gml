@@ -5,6 +5,7 @@ charging = 1;
 radius = 20;
 radiusMax = 100;
 alarm_set(0,1)
+currentEle = "lightning"
 offsetY = -30;
 offsetX = 60;
 

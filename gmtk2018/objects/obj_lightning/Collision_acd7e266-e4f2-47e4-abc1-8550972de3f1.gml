@@ -10,4 +10,5 @@ if( other.id != creator && dying == 0)
 	timeAlive = 0;
 	dying = 1;
 	hspeed = 0;
+	hitSound();
 }

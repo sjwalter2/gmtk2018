@@ -285,7 +285,7 @@ attackReady = 1;
 if(timeSinceAttack > 0 || grabRight || grabLeft)
 	attackReady = 0;
 
-if(currentSprite = spr_playerMidPunch && currentImageIndex =2 && timeSinceAttack <= 0)
+if(currentSprite = spr_playerMidPunch && currentImageIndex =1 && timeSinceAttack <= 0)
 {
 	makeAttack(fastAttackObj);
 	fastReleased = 0;

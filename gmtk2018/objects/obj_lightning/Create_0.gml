@@ -7,4 +7,5 @@ hitEffect = 64;
 dying = 0;
 creator = 0;
 stunTime = 25;
+currentEle = "lightning"
 

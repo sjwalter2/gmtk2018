@@ -9,6 +9,7 @@ if(charging)
 
 }
 move_bounce_all(1)
+hitSound();
 move_outside_all(direction,20)
 while(place_meeting(x,y,obj_platform))
 {

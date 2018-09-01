@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "030f1829-b671-46c8-a378-b46034fbc089",
+            "Value": {
+                "id": "d8a07561-5cb4-489a-827d-fc6fe89c28f9",
+                "resourcePath": "sounds\\snd_lightning\\snd_lightning.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "06b3082d-bd82-4cd3-8d8b-a21e79f8b117",
             "Value": {
                 "id": "fe3d9fb1-752c-4213-9bff-dc06a086f3c9",
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "764cfcfa-e09a-44e8-8b6b-abedcd0034c5",
+            "Value": {
+                "id": "40ac1038-2612-4eb1-9ee6-1eef6e261622",
+                "resourcePath": "objects\\obj_earthBlock\\obj_earthBlock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "76c39e32-6a50-418f-a5ae-ed9b626708f9",
             "Value": {
                 "id": "efee6118-f780-47f4-8cb2-99279780e62c",
@@ -435,6 +451,14 @@
             "Value": {
                 "id": "27d44346-bac4-4225-b53e-62ca51479804",
                 "resourcePath": "sprites\\spr_playerMidKick\\spr_playerMidKick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d197ace-b1f9-47cd-890b-7afca66465bb",
+            "Value": {
+                "id": "9883d071-70f5-458a-94ab-7b5e5ae52d15",
+                "resourcePath": "sprites\\spr_earthBlock\\spr_earthBlock.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -604,6 +628,14 @@
                 "id": "4d550757-766a-4b6f-bde9-e6e6f71ce8cd",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a542cce6-75ad-4ec6-bbe1-1e1138a1376f",
+            "Value": {
+                "id": "a766442c-a8cc-4236-871a-e321d32dbdba",
+                "resourcePath": "sounds\\snd_lightningHit\\snd_lightningHit.yy",
+                "resourceType": "GMSound"
             }
         },
         {

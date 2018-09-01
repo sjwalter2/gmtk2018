@@ -12,4 +12,5 @@ if(other.id != creator)
 		
 	}
 	move_bounce_all(1)
+	hitSound();
 }

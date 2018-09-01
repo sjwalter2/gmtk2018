@@ -5,6 +5,7 @@ if(!dying){
 		//horizontal collision
 		if place_meeting(x+hspeed,y,obj_platform)
 		{
+			hitSound();
 			while !place_meeting(x+sign(hspeed),y,obj_platform)
 		      {
 		           x+=sign(hspeed);

@@ -112,6 +112,7 @@ switch currentEle{
 		//we use melee for fire
 		break;
 	case "earth":
+		fastAttackObj = obj_earthBlock;
 		break;
 	case "plant":
 		fastAttackObj = obj_bouncing_plant;
