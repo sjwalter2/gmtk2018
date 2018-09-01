@@ -53,5 +53,9 @@ slowAttackObj = 0;
 
 airKnockback = 30;
 
+currentSprite = spr_playerIdle;
+currentImageIndex = 0;
+currentImageDirection = 1;
+alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 
 alarm_set(1,-1);

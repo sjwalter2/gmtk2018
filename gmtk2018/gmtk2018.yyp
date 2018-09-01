@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0a151140-380f-4227-b277-4b421321812e",
+            "Value": {
+                "id": "ffa95268-9380-4226-a337-6f1e4770ccd6",
+                "resourcePath": "sprites\\spr_playerIdle\\spr_playerIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "119e66a4-5b44-4257-a055-184b537712e5",
             "Value": {
                 "id": "6c86d0aa-9e71-48ec-bd51-fb945dc8f480",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "78a27cfa-9d39-4d0d-8250-e08a783c15f4",
                 "resourcePath": "sprites\\spr_air\\spr_air.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "35c6d728-d2c8-401f-82a2-f7f6b1d909b2",
+            "Value": {
+                "id": "807ac6dd-57bb-4307-8531-fe9d55d7be82",
+                "resourcePath": "sprites\\spr_playerMidPunch\\spr_playerMidPunch.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,6 +220,14 @@
                 "id": "ec3dd71b-884b-4d6e-ae26-c5197a980adb",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "85c21d39-507b-4a56-9cef-70d52f2b90ec",
+            "Value": {
+                "id": "88770a48-d4c8-467a-bf67-5d9e65444ac4",
+                "resourcePath": "sprites\\spr_playerRun\\spr_playerRun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "fcd9e8c3-c68e-41fd-9d7d-9cc96f5536b1",
+            "Value": {
+                "id": "d2102bbf-44d9-4a41-91c9-8dc1c310d4aa",
+                "resourcePath": "scripts\\spriteControl\\spriteControl.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fefb2681-f1b8-41a8-bfb7-db09cd2c57b4",
             "Value": {
                 "id": "79f2f0af-e714-4806-be44-7456f7ebf4d1",
@@ -388,7 +420,8 @@
         "94b15c41-61e0-4a57-b0a2-4c1a1ebf7674",
         "2425850a-cfd8-494b-8013-973e9379836c",
         "9f411c18-973c-4e9e-a201-7e02121ffdbe",
-        "0a086eea-a46d-48e5-b277-0cedf41a7db1"
+        "0a086eea-a46d-48e5-b277-0cedf41a7db1",
+        "fcd9e8c3-c68e-41fd-9d7d-9cc96f5536b1"
     ],
     "tutorial": ""
 }

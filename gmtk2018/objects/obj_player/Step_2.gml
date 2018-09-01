@@ -269,7 +269,7 @@ if(slowDown && slowReleased && attackReady)
 	attackReady = 0;
 }
 
-spriteControls();
+spriteControl();
 
 
 
