@@ -10,6 +10,7 @@ if(charging)
 }
 if( (abs(x - xstart) >= maxDist || creator.currentImageIndex != 1 )&& charging)
 {
+	hitSound();
 	charging = 0;
 	creator.currentImageIndex++;
 }
