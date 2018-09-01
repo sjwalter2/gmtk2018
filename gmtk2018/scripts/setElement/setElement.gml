@@ -115,7 +115,8 @@ switch currentEle{
 		fastAttackObj = obj_earthBlock;
 		break;
 	case "plant":
-		fastAttackObj = obj_bouncing_plant;
+		slowAttackObj = obj_bouncing_plant;
+		fastAttackObj = obj_vines;
 		break;
 	case "lava":
 		break;

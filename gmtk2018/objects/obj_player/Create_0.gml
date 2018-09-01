@@ -48,7 +48,7 @@ facing = 1; //1 is right, -1 is left
 
 timeSinceAttack = 0;
 slowAttackDelay = 30;
-fastAttackDelay = 15;
+fastAttackDelay = 12;
 
 ele0 = 0; //newest element picked up
 ele1 = 0; //oldest element picked up
