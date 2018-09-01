@@ -44,3 +44,5 @@ slowAttackDelay = 30;
 fastAttackDelay = 15;
 
 airKnockback = 30;
+
+alarm_set(1,-1);

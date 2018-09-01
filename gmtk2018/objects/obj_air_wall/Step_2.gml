@@ -21,7 +21,10 @@ if(!dying){
 //					x++
 //		}
 		inst.hspeed += (facing*hitEffect);
-		inst.vspeed -= verticalHitEffect;
+		with inst{
+			alarm_set(1,other.pushTime+alarm_get(1))	
+		}
+
 	} else {
 		hspeed = hspeedBase * facing;
 	}
