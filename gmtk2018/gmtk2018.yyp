@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "1cb4749a-f55d-4eb1-834d-bb7b887e2475",
+            "Value": {
+                "id": "1a0b1664-a8ac-403b-b96c-2f9c11d24bbe",
+                "resourcePath": "objects\\obj_vines\\obj_vines.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2379fd64-0bee-4c85-a4f2-5d6f2e2905bd",
             "Value": {
                 "id": "e630905c-6820-41bd-b1c9-32567f4a9d92",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "48ade3e3-8fd0-43d3-a4ad-d3ab8e212356",
+            "Value": {
+                "id": "52b3b1e2-c99c-4dbc-acc0-61ed01102dcd",
+                "resourcePath": "sprites\\spr_vines\\spr_vines.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a4831e9-a460-4764-9d14-dddd91af2ab0",
             "Value": {
                 "id": "9ff5a7fe-78d1-4c18-aba8-32243f3060fd",
@@ -260,6 +276,14 @@
                 "id": "d1a347f4-d113-4132-b14a-2c7b0c243ab0",
                 "resourcePath": "views\\4e436342-cec4-4f5c-a4de-88eee197f1ea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4f5bb6c9-364d-4057-9b29-25dfddf2c534",
+            "Value": {
+                "id": "0e838445-df9d-4f7b-a092-c2549148684d",
+                "resourcePath": "sprites\\spr_vines_dying\\spr_vines_dying.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -114,7 +114,8 @@ switch currentEle{
 	case "earth":
 		break;
 	case "plant":
-		fastAttackObj = obj_bouncing_plant;
+		slowAttackObj = obj_bouncing_plant;
+		fastAttackObj = obj_vines;
 		break;
 	case "lava":
 		break;

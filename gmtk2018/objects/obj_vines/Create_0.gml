@@ -1,13 +1,10 @@
 /// @description Insert description here
 timeAlive = 0;  // This increases once per step until it reaches maxTimeAlive
-maxTimeAlive = 60;
+maxTimeAlive = 120;
 facing = -1; //+1 is right, -1 is left; should be set by makeAir script.
-hspeedBase = 74;
-landed = 0;
-grav = 3;
+hspeedBase = 55;
+hitEffect = 70;
 dying = 0;
-freezeTime = 50;
 creator = 0;
-alarm_set(0,1);
-depth = -20;
-currentEle = "ice";
+stunTime = 15;
+currentEle = "plant";
