@@ -39,6 +39,8 @@ stunned = 0
 maxStunTime = 50
 stunTime = 50
 
+onFire = 0
+
 facing = 1; //1 is right, -1 is left
 
 timeSinceAttack = 0;
@@ -59,3 +61,4 @@ currentImageDirection = 1;
 alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 
 alarm_set(1,-1);
+alarm_set(3,-1);
