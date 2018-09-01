@@ -213,7 +213,10 @@ if(grabRight || grabLeft)
 if((currentSprite = spr_playerJumpStart || currentSprite = spr_playerWallJumpStart  )&& currentImageIndex = 2)
 {
 	if(currentSprite = spr_playerWallJumpStart && (grabLeft || grabRight))
+	{
 		hspeed = -hopSpeed/2 * currentImageDirection;
+		currentImageDirection = -currentImageDirection	
+	}
 	if(vspeed < 0)
 		vspeed = -hopSpeed
 	else
