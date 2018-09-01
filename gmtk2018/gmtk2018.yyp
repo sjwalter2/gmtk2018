@@ -679,11 +679,11 @@
             }
         },
         {
-            "Key": "ad45adf1-08f3-45d1-a624-32d9b6c8d6f1",
+            "Key": "ad53f2ee-53d3-4f52-9914-52b83ae8b29a",
             "Value": {
-                "id": "1cda04ee-016f-4f4d-b647-67610f908f92",
-                "resourcePath": "sounds\\snd_earthHit\\snd_earthHit.yy",
-                "resourceType": "GMSound"
+                "id": "b37aaaf6-7a84-4953-ae2b-f7858565ed0c",
+                "resourcePath": "sprites\\spr_earthTriangle\\spr_earthTriangle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -724,6 +724,14 @@
                 "id": "1a975047-f1bb-42c0-9bce-e36d33ccd7c4",
                 "resourcePath": "sprites\\spr_plant_throw\\spr_plant_throw.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b856773a-917d-44dd-91a3-e4934331ccfe",
+            "Value": {
+                "id": "9b078936-f530-49c8-bdf6-276a7d0cc288",
+                "resourcePath": "objects\\obj_earthTriangle\\obj_earthTriangle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -828,14 +836,6 @@
                 "id": "60503d2e-5bfe-46c4-bc17-5f33bc712c04",
                 "resourcePath": "sprites\\spr_lighningParticle\\spr_lighningParticle.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e93f8fc0-51f0-459d-b287-1f3e7b83adad",
-            "Value": {
-                "id": "b567f048-546d-40a8-8a6a-77a99a823da1",
-                "resourcePath": "sounds\\snd_earth\\snd_earth.yy",
-                "resourceType": "GMSound"
             }
         },
         {

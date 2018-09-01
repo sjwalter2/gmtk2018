@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(y = ystart)
 {
-	y = creator.y;
+	y = creator.y +sprite_height;
 }
 if(charging)
 {	

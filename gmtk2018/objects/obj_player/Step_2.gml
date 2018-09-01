@@ -175,6 +175,27 @@ if(!downDown && sign(vspeed) != -1 && sign(floor(hspeed/5)) != 1 && !position_me
 		while(bbox_left > inst.bbox_right+1)
 			x--
 	}
+	
+if(grabLeft)
+{
+var release = 0;
+	for(var i = 0; i < grabLength; i++)
+		if(position_meeting(bbox_left-i,bbox_top+10,obj_platform))
+			release = 1;
+			
+	if(!release)
+		grabLeft = 0;
+}
+if(grabRight)
+{
+var release = 0;
+	for(var i = 0; i < grabLength; i++)
+		if(position_meeting(bbox_right+i,bbox_top+10,obj_platform))
+			release = 1;
+			
+	if(!release)
+		grabRight = 0;
+}
 
 
 //horizontal collision
