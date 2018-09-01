@@ -108,7 +108,7 @@ if vspeed < fallSpeed
 	else
 		vspeed+=grav  + grav*(vspeed/fallSpeed);
 }
-else
+else if(!stunned)
 	vspeed=fallSpeed;
 
 //left and right collisions
@@ -285,14 +285,14 @@ attackReady = 1;
 if(timeSinceAttack > 0 || grabRight || grabLeft)
 	attackReady = 0;
 
-if(currentSprite = spr_playerMidPunch && currentImageIndex = 3 && timeSinceAttack <= 0)
+if(currentSprite = spr_playerMidPunch && currentImageIndex =2 && timeSinceAttack <= 0)
 {
 	makeAttack(fastAttackObj);
 	fastReleased = 0;
 	timeSinceAttack = fastAttackDelay;
 	attackReady = 0;
 }
-if(currentSprite = spr_playerMidKick && currentImageIndex = 3 && timeSinceAttack <= 0)
+if(currentSprite = spr_playerMidKick && currentImageIndex = 2 && timeSinceAttack <= 0)
 {
 	makeAttack(slowAttackObj);
 	slowReleased = 0;

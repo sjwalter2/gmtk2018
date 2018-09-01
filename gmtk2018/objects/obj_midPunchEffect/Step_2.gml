@@ -5,7 +5,7 @@ y = creator.y - creator.sprite_height/2;
 image_xscale = creator.currentImageDirection;
 image_index = creator.currentImageIndex;
 
-if (image_index >= sprite_get_number(sprite_index))
+if (image_index >= sprite_get_number(sprite_index) || creator.currentSprite != spr_playerMidPunch)
 {
 	instance_destroy()
 }

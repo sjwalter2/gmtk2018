@@ -104,7 +104,7 @@ switch currentEle{
 		break;
 	case "lightning":
 		fastAttackObj = obj_lightning;
-		slowAttackObj = obj_lightning;
+		slowAttackObj = obj_lightBall;
 		break;
 	case "fire":
 		fastAttackObj = 0;
