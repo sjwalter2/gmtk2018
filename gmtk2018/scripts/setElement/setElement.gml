@@ -15,7 +15,8 @@ switch ele0{
 				currentEle = "lightning";
 				break;
 			case "earth":
-				currentEle = 0;
+				ele1 = 0;
+				currentEle = "air";
 				break;
 			default:
 				currentEle = "air";
@@ -34,7 +35,8 @@ switch ele0{
 				currentEle = "plant";
 				break;
 			case "fire":
-				currentEle = 0;
+				else1 = 0;
+				currentEle = "water";
 				break;
 			default:
 				currentEle = "water";
@@ -53,7 +55,8 @@ switch ele0{
 				currentEle = "lava";
 				break;
 			case "water":
-				currentEle = 0;
+				else1 = 0;
+				currentEle = "fire";
 				break;
 			default:
 				currentEle = "fire";
@@ -72,7 +75,8 @@ switch ele0{
 				currentEle = "lava";
 				break;
 			case "air":
-				currentEle = 0;
+				else1 = 0;
+				currentEle = "earth";
 				break;
 			default:
 				currentEle = "earth";
@@ -110,6 +114,7 @@ switch currentEle{
 	case "earth":
 		break;
 	case "plant":
+		fastAttackObj = obj_bouncing_plant;
 		break;
 	case "lava":
 		break;
