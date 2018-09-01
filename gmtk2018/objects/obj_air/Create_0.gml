@@ -6,3 +6,4 @@ hspeedBase = 64;
 hitEffect = 64;
 verticalHitEffect = 16;
 dying = 0;
+creator = 0;
