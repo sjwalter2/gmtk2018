@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "09d7553f-2f79-43b6-899e-c2cb1958236e",
+            "Value": {
+                "id": "9cfc0a1d-e8ad-4726-a1d3-f0d614c7da0c",
+                "resourcePath": "sprites\\spr_midKickEffectfire\\spr_midKickEffectfire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a086eea-a46d-48e5-b277-0cedf41a7db1",
             "Value": {
                 "id": "17f078ff-220d-4a1b-8109-5e2b87e34593",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "6ed863bc-2e73-46f9-9c2e-eca6ac134bd6",
+            "Value": {
+                "id": "c6a0801e-a48a-46f9-b2f0-9a302db42c75",
+                "resourcePath": "views\\6ed863bc-2e73-46f9-9c2e-eca6ac134bd6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "73865bf6-7ee6-4956-ac71-40a9c5ed4118",
             "Value": {
                 "id": "7eea76ec-a903-460a-8bc7-18e0c9006371",
@@ -267,6 +283,14 @@
             "Value": {
                 "id": "e77d4620-c8f7-4a13-927f-997db7550136",
                 "resourcePath": "views\\82abdba3-8b0b-4aaa-8ea1-f36f7db21ab0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "840ae1fa-d55b-4055-87a0-f33284bca0dd",
+            "Value": {
+                "id": "3aa251ee-6fbe-46bb-a951-05915fc544df",
+                "resourcePath": "views\\840ae1fa-d55b-4055-87a0-f33284bca0dd.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -396,6 +420,14 @@
                 "id": "a2f54a73-5474-4afc-851a-aa4bd246d7eb",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c6ef9f50-f418-41ea-9f3c-a01c73cfa976",
+            "Value": {
+                "id": "3ddc846a-ecaf-45ae-84dc-856798f6f73a",
+                "resourcePath": "sprites\\spr_midPunchEffectfire\\spr_midPunchEffectfire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
