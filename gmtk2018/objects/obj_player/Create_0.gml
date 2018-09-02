@@ -41,7 +41,7 @@ maxStunTime = 50
 stunTime = 50
 
 maxSlipTime = 90;
-
+maxOnFireTime = 50;
 onFire = 0;
 
 facing = 1; //1 is right, -1 is left
