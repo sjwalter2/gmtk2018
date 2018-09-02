@@ -81,7 +81,12 @@ if(onFire) //forcedrun on fire
 			leftDown = 0;
 			break;
 	}
+	if(onGround && irandom(50) = 0)
+	{
+		vspeed -= hopSpeed	
+	}
 }
+
 
 //crouch
 if(onGround && downDown)
