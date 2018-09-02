@@ -12,3 +12,4 @@ creator = 0;
 currentEle = "plant";
 alarm_set(0,1);
 depth = -20;
+image_speed = 0;
