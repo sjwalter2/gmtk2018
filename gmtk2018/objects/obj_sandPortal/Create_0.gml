@@ -4,8 +4,8 @@ creator = 0;
 charging = 1;
 currentEle = "sand"
 dir = 1;
-moveSpeed = 40;
-maxDist = 720
+moveSpeed = 60;
+maxDist = 1000
 alarm_set(0,1)
 image_yscale = .1;
 image_alpha = 0

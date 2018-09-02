@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(y = ystart)
 {
-	y = creator.y +sprite_height;
+	y = creator.y - 10;
 }
 if(charging)
 {	
@@ -13,8 +13,4 @@ if( (abs(x - xstart) >= maxDist || creator.currentImageIndex != 1 )&& charging)
 	hitSound();
 	charging = 0;
 	creator.currentImageIndex++;
-}
-if(!charging && image_yscale < 1)
-{
-	image_yscale += .3	
 }

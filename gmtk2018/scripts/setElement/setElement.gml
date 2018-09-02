@@ -15,8 +15,7 @@ switch ele0{
 				currentEle = "lightning";
 				break;
 			case "earth":
-				ele1 = 0;
-				currentEle = "air";
+				currentEle = "sand";
 				break;
 			default:
 				currentEle = "air";
@@ -75,8 +74,7 @@ switch ele0{
 				currentEle = "lava";
 				break;
 			case "air":
-				else1 = 0;
-				currentEle = "earth";
+				currentEle = "sand";
 				break;
 			default:
 				currentEle = "earth";
@@ -122,6 +120,10 @@ switch currentEle{
 	case "lava":
 		fastAttackObj = obj_lavaBlast;
 		slowAttackObj = obj_lavaVolcano;
+		break;
+	case "sand":
+		fastAttackObj = obj_lavaBlast;
+		slowAttackObj = obj_sandPortal;
 		break;
 	default:
 		currentEle = 0;

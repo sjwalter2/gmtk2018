@@ -1,12 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!charging && image_yscale < 1)
+if(other.id != creator.id && charging)
 {
 	with(other)
 	{
 	stunned = 1
 	alarm_set(4,50)
 	image_blend = c_yellow
-	vspeed = -100;	
+	var moveX = x
+	var moveY = y
+	x = creator.x
+	y = creator.y
+	creator.x = moveX
+	creator.y = moveY
+	instance_destroy()
 	}
 }
