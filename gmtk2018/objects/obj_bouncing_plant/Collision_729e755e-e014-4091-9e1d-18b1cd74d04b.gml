@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if(landed)
 {
+image_speed = 1;
 hitSound();
 with(other)
 {
