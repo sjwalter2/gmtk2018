@@ -8,9 +8,12 @@ if(charging)
 {	
 	x += moveSpeed*dir
 }
-if( (abs(x - xstart) >= maxDist || creator.currentImageIndex != 1 )&& charging)
+if( place_meeting(x,y,obj_platform) || (abs(x - xstart) >= maxDist || creator.currentImageIndex != 2 )&& charging)
 {
 	hitSound();
 	charging = 0;
 	creator.currentImageIndex++;
+	creator.x = x
+	creator.y = y
+	instance_destroy()
 }

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(start)
+if(start || creator.currentEle = "lightning" ||  creator.currentEle = "lava"  || creator.currentEle = "earth"|| creator.currentEle = "sand"  )
 {
 	start = 0
 	image_xscale = creator.currentImageDirection;	
