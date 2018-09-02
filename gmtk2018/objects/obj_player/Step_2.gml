@@ -351,6 +351,7 @@ fastDown = 0
 
 if x < -700 || x > room_width + 700 || y < -700 || y > room_height + 700
 {
+	audio_play_sound(snd_die,0,0);
 	stock -= 1;
 	if stock == 0
 		instance_destroy();
