@@ -25,6 +25,7 @@ if(!dying){
 			timeAlive = 0;
 		} else {
 			hspeed = hspeedBase * facing;
+			image_xscale = facing
 		}
 
 		//vertical collision

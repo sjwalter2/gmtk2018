@@ -1,5 +1,6 @@
 if(onFire)
 {
+	part_type_size(type, .5, 2, -.1, 0);
 part_type_sprite(type, spr_lavaRock, true, false, false);
 
 part_type_gravity(type, 4, 270);
@@ -12,6 +13,7 @@ part_particles_create(system, x + 0, y + irandom(-sprite_height), type, 2-2/alar
 }
 else if(stunned)
 {
+	part_type_size(type, .5, 2, -.1, 0);
 part_type_sprite(type, spr_stunBolts, true, false, false);
 
 part_type_gravity(type, 0, 270);
@@ -24,8 +26,8 @@ part_particles_create(system, x + 0, y +-sprite_height, type, 1);
 }
 if(alarm_get(1) != -1)
 {
-part_type_sprite(type, spr_ice, true, false, false);
-
+part_type_sprite(type, spr_icicle, true, false, false);
+part_type_size(type, .5,1,-.01, 0);
 part_type_gravity(type, 4, 270);
 
 part_type_orientation(type, -90, -90, 0, 0, 1);
