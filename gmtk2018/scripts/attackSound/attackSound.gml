@@ -25,5 +25,6 @@ switch(currentEle)
 	default:
 	soundToPlay=0;
 }
+
 	audio_stop_sound(soundToPlay);
 	audio_play_sound(soundToPlay,0,0)	

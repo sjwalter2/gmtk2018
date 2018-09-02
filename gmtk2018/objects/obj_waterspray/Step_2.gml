@@ -47,7 +47,7 @@ if(!dying){
 	
 	image_xscale = image_xscale*1.03;
 	image_yscale = image_yscale*1.04;
-	hitEffect = hitEffect * 0.98;
+	hitEffect = hitEffect * 0.99;
 } else {
 	timeAlive += 1;
 	image_alpha=image_alpha*0.9
