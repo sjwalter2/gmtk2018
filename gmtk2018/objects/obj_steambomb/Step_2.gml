@@ -77,5 +77,5 @@ if(!dying){
 /// @DnDHash : 18360DEC
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "number" "2"
-part_particles_create(system, x + 0, y + 0, type, 2);
+/// @DnDArgument : "number" "1"
+part_particles_create(system, x + 0, y + 0, type, 1);

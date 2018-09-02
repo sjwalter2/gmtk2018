@@ -74,6 +74,7 @@ if(!dying){
 	}
 } else {
 	hspeed=0;
+	image_alpha -= 0.1;
 	timeAlive += 1;
 	if timeAlive >= 20
 		instance_destroy();

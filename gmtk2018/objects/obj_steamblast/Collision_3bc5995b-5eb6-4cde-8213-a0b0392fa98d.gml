@@ -18,7 +18,7 @@ if blowingup == 0
 } else {
 	other.hspeed += (facing*hitEffect);
 	other.fric = 0;
-	other.vspeed = other.vspeed - 15;
+	other.vspeed = other.vspeed - 20;
 	other.grabLeft = 0
 	other.grabRight = 0
 	with other{

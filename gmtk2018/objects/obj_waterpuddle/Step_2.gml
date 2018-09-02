@@ -45,6 +45,7 @@ if(!dying){
 	image_yscale = image_yscale*0.97;
 	freezeTime = freezeTime * 0.98;
 } else {
+	image_alpha -= 0.1;
 	timeAlive += 1;
 	if timeAlive >= 15
 		instance_destroy();

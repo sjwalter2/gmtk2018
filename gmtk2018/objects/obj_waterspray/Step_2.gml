@@ -50,7 +50,7 @@ if(!dying){
 	hitEffect = hitEffect * 0.99;
 } else {
 	timeAlive += 1;
-	image_alpha=image_alpha*0.9
+	image_alpha -= 0.1;
 	if timeAlive >= 15
 		instance_destroy();
 }

@@ -52,6 +52,7 @@ if(!dying){
 			timeAlive = 0;
 		}
 } else {
+	image_alpha -= 0.1;
 	timeAlive += 1;
 	if timeAlive >= 8
 		instance_destroy();
