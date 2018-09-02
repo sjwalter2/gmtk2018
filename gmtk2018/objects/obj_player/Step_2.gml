@@ -349,7 +349,7 @@ onGround = 0
 slowDown = 0
 fastDown = 0
 
-if x < -200 || x > room_width + 200 || y < 0 || y > room_height + 200
+if x < -700 || x > room_width + 700 || y < -700 || y > room_height + 700
 {
 	stock -= 1;
 	if stock == 0
