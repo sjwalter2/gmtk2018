@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(instance_exists(creator))
+{
 if(other.id != creator)
 {
 	hitSound();
@@ -27,4 +29,9 @@ if(other.id != creator)
 		else
 			hspeed = -50
 	}
+}
+}
+else
+{
+	instance_destroy();
 }
