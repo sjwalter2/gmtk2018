@@ -8,15 +8,18 @@ if(other.id != creator)
 	currentEle = "fire";
 	with(other)
 		{
+			
+			image_blend = c_red
 			onFire = 1;
-			alarm_set(3,14+alarm_get(3));
+			alarm_set(3,maxOnFireTime);
 		}
 	}
 	with(other)
 	{
 		stunned = 1
 		alarm_set(4,20)
-		image_blend = c_yellow
+		if(image_blend = c_white)
+			image_blend = c_yellow
 		vspeed = -20
 		if(x > other.creator.x)
 			hspeed = 50
