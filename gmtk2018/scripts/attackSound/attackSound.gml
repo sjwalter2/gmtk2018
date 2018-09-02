@@ -19,6 +19,9 @@ switch(currentEle)
 	case "earth":
 	soundToPlay=(snd_earth);
 	break;
+	case "water":
+	soundToPlay=(snd_water);
+	break;
 	default:
 	soundToPlay=0;
 }

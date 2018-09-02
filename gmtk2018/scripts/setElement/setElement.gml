@@ -95,8 +95,8 @@ switch currentEle{
 		slowAttackObj = obj_air_wall;
 		break;
 	case "water":
-		fastAttackObj = obj_air;
-		slowAttackObj = obj_ice;
+		fastAttackObj = obj_waterpuddle;
+		slowAttackObj = obj_waterspray;
 		break;
 	case "ice":
 		fastAttackObj = obj_icicle;
