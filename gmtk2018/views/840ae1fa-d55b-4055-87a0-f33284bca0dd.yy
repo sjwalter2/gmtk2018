@@ -13,7 +13,8 @@
         "f15799fc-2220-4c35-b5e8-3ff407bc59c1",
         "19ffb6a6-a55b-47ac-b628-e267701e464d",
         "7246f6e7-8441-4dec-b149-4bba3eea38c0",
-        "836c7c2d-473c-402e-a44b-ddb1da52a73f"
+        "836c7c2d-473c-402e-a44b-ddb1da52a73f",
+        "05c093ce-7d8b-4a9f-b565-2216b887bd38"
     ],
     "filterType": "GMSprite",
     "folderName": "midPunchEffect",

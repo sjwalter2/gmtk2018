@@ -31,6 +31,7 @@ if(!dying){
 
 	} else {
 		hspeed = hspeedBase * facing;
+		image_xscale = facing;
 	}
 
 	timeAlive += 1;

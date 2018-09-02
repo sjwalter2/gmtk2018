@@ -13,7 +13,8 @@
         "2379fd64-0bee-4c85-a4f2-5d6f2e2905bd",
         "7932b414-35ee-4aed-99ed-85236a416426",
         "5a7f460e-e6a4-424a-bcaf-d7a62f1690ad",
-        "ed946814-3266-47b5-9938-60018e59d671"
+        "ed946814-3266-47b5-9938-60018e59d671",
+        "6a0442b4-787d-44d9-b730-5fa5d924e721"
     ],
     "filterType": "GMSprite",
     "folderName": "midKickEffect",
