@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "420c49a6-84f9-4ff1-80de-ee1f738f126b",
+            "Value": {
+                "id": "dac02e7a-5c66-4456-a630-eae50d828328",
+                "resourcePath": "sprites\\spr_steambomb\\spr_steambomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "46f2208a-a1ee-4b6a-bb00-b06fd8734c50",
             "Value": {
                 "id": "b135570a-e0a8-4589-9fc7-0a28b204244b",
@@ -919,6 +927,14 @@
             }
         },
         {
+            "Key": "ac02a7cf-70c0-4b41-93ba-4ef825a1d822",
+            "Value": {
+                "id": "5f7f5d41-c0fa-4b8d-87f8-b3be6f3ad705",
+                "resourcePath": "scripts\\steamParticle\\steamParticle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ad53f2ee-53d3-4f52-9914-52b83ae8b29a",
             "Value": {
                 "id": "b37aaaf6-7a84-4953-ae2b-f7858565ed0c",
@@ -967,6 +983,14 @@
             }
         },
         {
+            "Key": "b4680367-0e14-498e-b88a-90cc461be0f2",
+            "Value": {
+                "id": "7f24597a-ef1a-4128-b997-b91016f374a4",
+                "resourcePath": "objects\\obj_steambomb\\obj_steambomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b5e6498c-552d-41c5-9aa5-b85b9b6c0815",
             "Value": {
                 "id": "dbc5b264-90cb-41d9-8f95-99b80446047b",
@@ -980,6 +1004,14 @@
                 "id": "9b078936-f530-49c8-bdf6-276a7d0cc288",
                 "resourcePath": "objects\\obj_earthTriangle\\obj_earthTriangle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c04ef70a-7ed2-4bf8-8ce4-53b1eeca31f9",
+            "Value": {
+                "id": "26335530-06a5-4eb1-a980-4b6a9eeb42ad",
+                "resourcePath": "sprites\\spr_steamparticle\\spr_steamparticle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1321,7 +1353,8 @@
         "ae970290-afbc-4d41-afb1-d8e82a25171c",
         "6031a7c6-83a7-4625-9ba8-8bd3ddc575b5",
         "1526ce0c-1b27-425d-96f7-6412cbbb351c",
-        "6bd71380-f737-42ba-892a-6d4005a22df1"
+        "6bd71380-f737-42ba-892a-6d4005a22df1",
+        "ac02a7cf-70c0-4b41-93ba-4ef825a1d822"
     ],
     "tutorial": ""
 }

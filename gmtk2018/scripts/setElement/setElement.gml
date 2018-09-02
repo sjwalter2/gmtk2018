@@ -34,8 +34,7 @@ switch ele0{
 				currentEle = "plant";
 				break;
 			case "fire":
-				else1 = 0;
-				currentEle = "water";
+				currentEle = "steam";
 				break;
 			default:
 				currentEle = "water";
@@ -54,8 +53,7 @@ switch ele0{
 				currentEle = "lava";
 				break;
 			case "water":
-				else1 = 0;
-				currentEle = "fire";
+				currentEle = "steam";
 				break;
 			default:
 				currentEle = "fire";
@@ -124,6 +122,10 @@ switch currentEle{
 	case "sand":
 		fastAttackObj = obj_lavaBlast;
 		slowAttackObj = obj_sandPortal;
+		break;
+	case "steam":
+		fastAttackObj = obj_steambomb;
+		slowAttackObj = obj_steambomb;
 		break;
 	default:
 		currentEle = 0;
