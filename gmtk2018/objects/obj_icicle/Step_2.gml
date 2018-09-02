@@ -1,6 +1,7 @@
 /// @description Insert description here
 
-
+if(instance_exists(creator))
+{
 if(!dying){
 	//horizontal collision
 	if place_meeting(x+hspeed,y,obj_platform)
@@ -70,4 +71,9 @@ if(!dying){
 	timeAlive += 1;
 	if timeAlive >= 15
 		instance_destroy();
+}
+}
+else
+{
+	instance_destroy()	
 }

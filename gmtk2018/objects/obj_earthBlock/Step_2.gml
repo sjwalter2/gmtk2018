@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(instance_exists(creator))
+{
 if(y = ystart)
 {
 	y = creator.y +sprite_height;
@@ -18,3 +20,6 @@ if(!charging && image_yscale < 1)
 {
 	image_yscale += .3	
 }
+}
+else
+	instance_destroy();

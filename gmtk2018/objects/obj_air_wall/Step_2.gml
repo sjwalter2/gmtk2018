@@ -1,6 +1,7 @@
 /// @description Insert description here
 
-
+if(instance_exists(creator))
+{
 if(!dying){
 
 	//collision with player
@@ -46,4 +47,9 @@ if(!dying){
 	image_alpha -= 0.1;
 	if timeAlive >= 15
 		instance_destroy();
+}
+}
+else
+{
+	instance_destroy();	
 }

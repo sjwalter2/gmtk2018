@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(instance_exists(creator))
+{
 if(y = ystart)
 {
 	y = creator.y - 10;
@@ -17,3 +19,8 @@ if( place_meeting(x,y,obj_platform) || (abs(x - xstart) >= maxDist || creator.cu
 	creator.y = y
 	instance_destroy()
 }
+}
+else
+{
+	instance_destroy()
+}	
