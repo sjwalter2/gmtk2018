@@ -30,3 +30,23 @@ for (var i =0 ; i < global.playerCounter; i++)
 		draw_sprite_ext(asset_get_index("spr_" + element2 +"_pickup"),0, 320 + 400 * i, 10,.5,.5,0,c_white,1)
 	
 }
+
+var play = 0
+
+if(instance_number(obj_player) < 2)
+{
+	with(obj_player)
+{
+
+	play = id;
+	
+}
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_set_font(font1)
+	var num = play.playerNumber
+	draw_set_color(play.image_blend)
+	draw_text(display_get_gui_width()/2,display_get_gui_height()/2,"PLAYER "+ string(num+1) + " WINS!");
+	draw_set_color(c_white)
+
+}
