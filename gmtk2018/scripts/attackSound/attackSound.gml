@@ -25,6 +25,9 @@ switch(currentEle)
 	case "steam":
 	soundToPlay=(snd_steamBounce);
 	break;
+	case "sand":
+	soundToPlay=(snd_sandWhirl);
+	break;
 	default:
 	soundToPlay=0;
 }

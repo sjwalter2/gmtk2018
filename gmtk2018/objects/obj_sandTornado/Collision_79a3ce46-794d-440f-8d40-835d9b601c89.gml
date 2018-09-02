@@ -7,8 +7,10 @@ if(image_yscale < 1)
 	stunned = 1
 	alarm_set(4,50)
 	image_blend = c_yellow
-	vspeed = -100;	
+	vspeed = -100;
+	hspeed = hspeed + facing*25;
 	}
+	hitSound();
 } else {
 	with(other)
 	{
