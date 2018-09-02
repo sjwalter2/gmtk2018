@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "03a64654-f3be-4e97-8bdb-9f383803f71e",
+            "Value": {
+                "id": "f33b13ce-bbf1-430d-bd8d-0e6eaf25f8e5",
+                "resourcePath": "sounds\\snd_scream3\\snd_scream3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "06b3082d-bd82-4cd3-8d8b-a21e79f8b117",
             "Value": {
                 "id": "fe3d9fb1-752c-4213-9bff-dc06a086f3c9",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "1bd512da-a9d3-4f68-ba6f-ecb2032bba65",
+            "Value": {
+                "id": "a79b1bb6-e3de-44c9-b1b4-f4c5ef469c7a",
+                "resourcePath": "sounds\\snd_scream5\\snd_scream5.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1c1a03dc-0c13-4933-beb4-af72d1b27e3e",
             "Value": {
                 "id": "58f6dbbc-c209-48fc-9f03-b26905a85bb1",
@@ -300,6 +316,14 @@
                 "id": "d51e603d-9d52-42f8-9c77-4e842d3b2ee4",
                 "resourcePath": "sprites\\spr_midPunchlightning\\spr_midPunchlightning.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "40a42bc3-e6c5-47f2-9d9e-b0af20981ffa",
+            "Value": {
+                "id": "5e238613-1eec-4e05-ab6a-5809e99f7f51",
+                "resourcePath": "sounds\\snd_scream0\\snd_scream0.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -639,6 +663,14 @@
             }
         },
         {
+            "Key": "8866b929-6469-46a6-a46c-e416a6b8cc0d",
+            "Value": {
+                "id": "5382e374-cc97-449c-827b-ea809fa308a5",
+                "resourcePath": "sounds\\snd_scream2\\snd_scream2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "89ff744a-8c16-4536-8a88-e9522e4780b6",
             "Value": {
                 "id": "3661a12c-3ead-4464-93ce-614058bb6744",
@@ -775,6 +807,14 @@
             }
         },
         {
+            "Key": "a45e8709-ed3d-44c0-8d0d-ff4ee41bdf0f",
+            "Value": {
+                "id": "d499bc56-23a3-499b-a068-a7dbd5c9b7d7",
+                "resourcePath": "objects\\obj_lavaBlast\\obj_lavaBlast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a542cce6-75ad-4ec6-bbe1-1e1138a1376f",
             "Value": {
                 "id": "a766442c-a8cc-4236-871a-e321d32dbdba",
@@ -844,6 +884,14 @@
                 "id": "1a975047-f1bb-42c0-9bce-e36d33ccd7c4",
                 "resourcePath": "sprites\\spr_plant_throw\\spr_plant_throw.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b5e6498c-552d-41c5-9aa5-b85b9b6c0815",
+            "Value": {
+                "id": "dbc5b264-90cb-41d9-8f95-99b80446047b",
+                "resourcePath": "sounds\\snd_scream4\\snd_scream4.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -988,6 +1036,14 @@
                 "id": "e22b4f97-6242-46e0-acb6-56d44b6c100e",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e439c0be-9bab-4a34-a9b5-7db3fe7d33c2",
+            "Value": {
+                "id": "da6450ef-7062-4c80-ada4-805be1661795",
+                "resourcePath": "sounds\\snd_scream1\\snd_scream1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
