@@ -1415,6 +1415,14 @@
             }
         },
         {
+            "Key": "fc5d700c-32f4-4b56-ad3e-434d747d0c7d",
+            "Value": {
+                "id": "01962753-66be-4516-a3de-e02ba19c7ecd",
+                "resourcePath": "sprites\\spr_sandportal\\spr_sandportal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fcd9e8c3-c68e-41fd-9d7d-9cc96f5536b1",
             "Value": {
                 "id": "d2102bbf-44d9-4a41-91c9-8dc1c310d4aa",
