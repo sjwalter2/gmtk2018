@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "15196433-d6db-4c55-9b8b-ad510ed177db",
+            "Value": {
+                "id": "96dfd3bb-6141-486d-b758-a1f21099dff8",
+                "resourcePath": "objects\\obj_gui\\obj_gui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1526ce0c-1b27-425d-96f7-6412cbbb351c",
             "Value": {
                 "id": "f3da668f-66f5-4dcb-971e-736bad260690",
@@ -1243,6 +1251,14 @@
             "Value": {
                 "id": "a05dd9a9-d255-49a5-ac6b-1d40b81c25e7",
                 "resourcePath": "sprites\\spr_backgrounds6\\spr_backgrounds6.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d4146b64-1de6-4c54-b3e7-4ea29c6d4825",
+            "Value": {
+                "id": "b3b7b4ba-0b1d-49d5-9f24-d1f79b67bee5",
+                "resourcePath": "sprites\\spr_stock\\spr_stock.yy",
                 "resourceType": "GMSprite"
             }
         },

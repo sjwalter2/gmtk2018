@@ -73,7 +73,6 @@ if(onFire) //forcedrun on fire
 {
 	stunned = 0
 	alarm_set(4,-1)
-	image_blend = c_red
 	switch facing{
 		case -1:
 			leftDown = 1;
@@ -93,10 +92,7 @@ if(onFire) //forcedrun on fire
 playerFireParticle()
 
 //crouch
-if(onGround && downDown)
-	image_yscale = .5
-else
-{
+
 	image_yscale = 1
 	while(position_meeting(bbox_right,bbox_bottom,obj_platform) && position_meeting(bbox_left,bbox_bottom,obj_platform))
 		y--
@@ -104,7 +100,7 @@ else
 		x--
 	while(position_meeting(bbox_left,bbox_top,obj_platform) && position_meeting(bbox_left,bbox_bottom,obj_platform))
 		x++
-}
+
 
 
 //limit and increase vspeed
@@ -361,7 +357,6 @@ if x < -700 || x > room_width + 700 || y < -700 || y > room_height + 700
 	y = respawn.y;
 	hspeed = 0;
 	vspeed = 0;
-	image_blend = c_white;
 	onFire = 0;
 	alarm_set(3,-1);
 	stunned = 0;
