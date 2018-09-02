@@ -1,2 +1,2 @@
 myVar = "stock";
-myMax = 10;
+myMax = 9;

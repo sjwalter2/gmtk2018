@@ -23,11 +23,11 @@ for (var i =0 ; i < global.playerCounter; i++)
 		element2 = ele1;
 		}
 	}
-	draw_text(150 + 400 * i, 10,"Stock: "+string(stocks))
+	draw_text(150 + 400 * i, 10," Stock: "+string(stocks))
 	if(element1 != 0)
-		draw_sprite_ext(asset_get_index("spr_" + element1 +"_pickup"),0, 280 + 400 * i, 10,.5,.5,0,c_white,1)
+		draw_sprite_ext(asset_get_index("spr_" + element1 +"_pickup"),0, 300 + 400 * i, 10,.5,.5,0,c_white,1)
 	if(element2 != 0 && element2 != element1)
-		draw_sprite_ext(asset_get_index("spr_" + element2 +"_pickup"),0, 320 + 400 * i, 10,.5,.5,0,c_white,1)
+		draw_sprite_ext(asset_get_index("spr_" + element2 +"_pickup"),0, 340 + 400 * i, 10,.5,.5,0,c_white,1)
 	
 }
 
