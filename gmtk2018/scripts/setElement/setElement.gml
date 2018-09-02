@@ -120,7 +120,7 @@ switch currentEle{
 		fastAttackObj = obj_vines;
 		break;
 	case "lava":
-		fastAttackObj = 0;
+		fastAttackObj = obj_lavaBlast;
 		slowAttackObj = obj_lavaVolcano;
 		break;
 	default:
