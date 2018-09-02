@@ -1,8 +1,8 @@
 {
-    "id": "4a57e6e0-6063-451b-97b4-2b9d7d22006d",
+    "id": "f5b7b8de-223e-4c2c-88d3-fbe400175f3f",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_air",
+    "name": "snd_jump",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.72
+    "volume": 1
 }

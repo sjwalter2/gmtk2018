@@ -1,5 +1,5 @@
 {
-    "id": "ad45adf1-08f3-45d1-a624-32d9b6c8d6f1",
+    "id": "d68511f8-f243-4f31-985e-2149153860cf",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_earthHit",
