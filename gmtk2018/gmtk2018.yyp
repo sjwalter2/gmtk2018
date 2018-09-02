@@ -287,11 +287,27 @@
             }
         },
         {
+            "Key": "289f162e-ac26-452d-8917-3c356c8e6b6a",
+            "Value": {
+                "id": "7b91af75-8a6f-467a-9d32-917a933b154d",
+                "resourcePath": "sprites\\spr_sandtornado\\spr_sandtornado.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28ba49ee-6fac-4eae-9db6-6870b2bfa26e",
             "Value": {
                 "id": "5375de1b-975c-49f8-8cfa-fe00f2d50373",
                 "resourcePath": "views\\28ba49ee-6fac-4eae-9db6-6870b2bfa26e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2a61a089-2b56-4403-ae4f-a36354cea764",
+            "Value": {
+                "id": "d2b5fa0f-ee6e-45ac-9f14-afb855d0c6a2",
+                "resourcePath": "objects\\obj_sandTornado\\obj_sandTornado.yy",
+                "resourceType": "GMObject"
             }
         },
         {

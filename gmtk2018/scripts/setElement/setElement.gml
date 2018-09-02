@@ -120,7 +120,7 @@ switch currentEle{
 		slowAttackObj = obj_lavaVolcano;
 		break;
 	case "sand":
-		fastAttackObj = obj_lavaBlast;
+		fastAttackObj = obj_sandTornado;
 		slowAttackObj = obj_sandPortal;
 		break;
 	case "steam":
