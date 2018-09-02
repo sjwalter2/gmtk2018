@@ -1,8 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = creator.x
-y = creator.y - creator.sprite_height/2;
-image_xscale = creator.currentImageDirection;
+if(start)
+{
+	start = 0
+	image_xscale = creator.currentImageDirection;	
+	x = creator.x
+	y = creator.y - creator.sprite_height/2;
+}
+
+
 image_index = creator.currentImageIndex;
 
 
