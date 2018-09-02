@@ -20,7 +20,7 @@ switch(currentEle)
 	soundToPlay=(snd_earthHit);
 	break;
 	case "water":
-	soundToPlay=(snd_waterHit);
+	soundToPlay=(snd_waterHit1);
 	break;
 	default:
 	soundToPlay=0;

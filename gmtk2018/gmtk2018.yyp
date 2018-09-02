@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "11e0df38-94d7-4391-b7e8-39c4dc097d3d",
+            "Value": {
+                "id": "92a7836e-c0ac-49a1-899c-29b4b6259bb4",
+                "resourcePath": "sounds\\snd_waterHit1\\snd_waterHit1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "155514ec-ba64-46d1-ac46-bbef1e1a1352",
             "Value": {
                 "id": "8061defa-e76e-4e60-b5df-b2db8826e403",
@@ -203,6 +211,14 @@
             "Value": {
                 "id": "69483885-db94-45c4-92b9-10ea1fb34591",
                 "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "25e39796-8eca-437b-9777-96a834e992e3",
+            "Value": {
+                "id": "1bb86d9b-632e-4b38-a182-174cab7a1055",
+                "resourcePath": "objects\\obj_waterspray\\obj_waterspray.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -283,6 +299,22 @@
             "Value": {
                 "id": "d51e603d-9d52-42f8-9c77-4e842d3b2ee4",
                 "resourcePath": "sprites\\spr_midPunchlightning\\spr_midPunchlightning.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "41a46027-76c6-48e9-94d2-7940301ddd61",
+            "Value": {
+                "id": "49af2f6f-11ec-455d-8d48-14582b7c031f",
+                "resourcePath": "sprites\\spr_waterspray\\spr_waterspray.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46f2208a-a1ee-4b6a-bb00-b06fd8734c50",
+            "Value": {
+                "id": "b135570a-e0a8-4589-9fc7-0a28b204244b",
+                "resourcePath": "sprites\\spr_waterpuddle\\spr_waterpuddle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -655,6 +687,14 @@
             }
         },
         {
+            "Key": "951d2e48-c140-496b-b899-6d5e53bdea8c",
+            "Value": {
+                "id": "aadc9f57-3ff0-417c-8cfe-bc9929824aec",
+                "resourcePath": "sounds\\snd_water\\snd_water.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "961d900b-31e2-415e-be99-3c2320c6cb14",
             "Value": {
                 "id": "d0214e59-df40-4858-9994-42805b6abd8c",
@@ -684,6 +724,14 @@
                 "id": "91ab486a-55c2-48cf-b6ee-787e81a27779",
                 "resourcePath": "scripts\\joystickControls\\joystickControls.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9fb1f8b8-a2fc-413a-9e5a-e1c6cf292e6e",
+            "Value": {
+                "id": "b7e34236-16ee-4f0b-aceb-8e6edbf20cd8",
+                "resourcePath": "objects\\obj_waterpuddle\\obj_waterpuddle.yy",
+                "resourceType": "GMObject"
             }
         },
         {

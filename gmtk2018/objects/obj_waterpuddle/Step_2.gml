@@ -27,7 +27,7 @@ if(!dying){
 	vspeed += grav;
 	if place_meeting(x,y+vspeed,obj_platform)
 	{
-		while !place_meeting(x,y+sign(vspeed),obj_platform)
+		while !place_meeting(x,y+sign(vspeed)+sign(vspeed),obj_platform)
 	    {
 			y+=sign(vspeed);
 	    }
