@@ -6,7 +6,7 @@ if(image_yscale < 1)
 	{
 	stunned = 1
 	alarm_set(4,50)
-	image_blend = c_yellow
+
 	vspeed = -100;	
 	}
 } else {
@@ -14,7 +14,7 @@ if(image_yscale < 1)
 	{
 	stunned = 1
 	alarm_set(4,20)
-	image_blend = c_yellow
+
 	vspeed = -30;	
 	}
 }

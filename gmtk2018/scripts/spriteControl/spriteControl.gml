@@ -57,18 +57,7 @@ else if((currentSprite = spr_playerMidPunch && currentEle = "earth" && fastDown 
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 }
 
-else if(downDown && (currentSprite = spr_playerIdle && currentSprite != spr_playerEnterCrouch))
-{
-	currentSprite = spr_playerEnterCrouch;
-	currentImageIndex = 0;
-	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
-}
-else if(!downDown && (currentSprite = spr_playerEnterCrouch || currentSprite = spr_playerCrouchIdle))
-{
-	currentSprite = spr_playerExitCrouch;
-	currentImageIndex = 0;
-	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
-}
+
  if(jumpReady && jumpDown && jumpReleased && !(grabLeft || grabRight) && currentSprite != spr_playerJumpStart && currentSprite != spr_playerJumpIdle)
 {
 	jumpReady = 0;

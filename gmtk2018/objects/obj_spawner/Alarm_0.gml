@@ -18,4 +18,5 @@ for (i = 0; i < global.playerCounter; i += 1)
 		respawn = respawners[irandom(array_length_1d(respawners)-1)];
 	var inst = instance_create_layer(respawn.x,respawn.y,layer_get_id("Instances_1"),obj_player)
 	inst.playerNumber = i;
+	inst.image_blend = global.playerColor[i]
 	}

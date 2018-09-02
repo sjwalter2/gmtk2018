@@ -50,7 +50,6 @@ if(!dying){
 			{
 				stunned = 1;
 				alarm_set(4,other.stunTime+alarm_get(4));
-				image_blend = c_yellow
 				if alarm_get(4) > maxStunTime
 					alarm_set(4,maxStunTime);
 					

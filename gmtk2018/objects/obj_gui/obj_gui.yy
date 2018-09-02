@@ -1,28 +1,18 @@
 {
-    "id": "28016572-7298-45a5-9b60-905bda4d5dda",
+    "id": "15196433-d6db-4c55-9b8b-ad510ed177db",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_startGameButton",
+    "name": "obj_gui",
     "eventList": [
         {
-            "id": "49b7f0b6-d45d-492d-bc3e-6b87f25f6245",
+            "id": "b040db32-475e-4158-945e-f7e0c47de620",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "28016572-7298-45a5-9b60-905bda4d5dda"
-        },
-        {
-            "id": "7f25430b-b7bf-4c26-bf7e-1c048dc956c0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "28016572-7298-45a5-9b60-905bda4d5dda"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "15196433-d6db-4c55-9b8b-ad510ed177db"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c91ab4e8-7fc3-451b-a078-14059a8f33f1",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
