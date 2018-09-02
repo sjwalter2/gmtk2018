@@ -9,10 +9,11 @@ if(other.id != creator.id && charging)
 	image_blend = c_yellow
 	var moveX = x
 	var moveY = y
-	x = creator.x
-	y = creator.y
-	creator.x = moveX
-	creator.y = moveY
-	instance_destroy()
+	x = other.creator.x
+	y = other.creator.y
+	other.creator.x = moveX
+	other.creator.y = moveY
+
 	}
+	instance_destroy()
 }
