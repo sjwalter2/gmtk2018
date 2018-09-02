@@ -1,0 +1,1 @@
+global.playerCounter = 2;
