@@ -3,6 +3,7 @@
 globalInit();
 playerNumber = 0;
 
+stock = global.stock;
 
 leftDown = 0
 rightDown = 0
@@ -56,7 +57,7 @@ currentEle = 0; //this is the element that's actually used in attacks. set by "s
 fastAttackObj = 0;
 slowAttackObj = 0;
 
-airKnockback = 30;
+airKnockback = 8;
 
 currentSprite = spr_playerIdle;
 currentImageIndex = 0;

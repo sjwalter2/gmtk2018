@@ -347,6 +347,9 @@ fastDown = 0
 
 if x < -200 || x > room_width + 200 || y < 0 || y > room_height + 200
 {
+	stock -= 1;
+	if stock == 0
+		instance_destroy();
 	var spawner = instance_find(obj_spawner,0);
 	var respawn = spawner.respawners[irandom(array_length_1d(spawner.respawners)-1)];
 	x = respawn.x;
