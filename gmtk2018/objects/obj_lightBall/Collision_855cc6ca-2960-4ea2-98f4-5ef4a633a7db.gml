@@ -5,6 +5,7 @@ if(other.id != creator)
 	with(other)
 	{
 		alarm_set(4,20)	
+		image_blend = c_yellow
 		stunned = 1;
 		direction = other.direction
 		

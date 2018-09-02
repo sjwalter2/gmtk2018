@@ -21,7 +21,7 @@ switch(currentEle)
 		audio_play_sound(snd_lightningHit,0,0)
 	break;
 	case "earth":
-	if(!audio_is_playing(snd_earthHit))
-		audio_play_sound(snd_earthHit,0,0)
+	//if(!audio_is_playing(snd_earthHit))
+	//	audio_play_sound(snd_earthHit,0,0)
 	break;
 }

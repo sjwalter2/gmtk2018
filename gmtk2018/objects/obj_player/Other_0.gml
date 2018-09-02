@@ -6,6 +6,7 @@ x = respawn.x;
 y = respawn.y;
 hspeed = 0;
 vspeed = 0;
+image_blend = c_white;
 onFire = 0;
 alarm_set(3,-1);
 stunned = 0;
