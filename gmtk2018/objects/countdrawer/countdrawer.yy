@@ -2,7 +2,7 @@
     "id": "a049307d-294f-4ebf-9697-45170daad4b7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "playercountdrawer",
+    "name": "countdrawer",
     "eventList": [
         {
             "id": "5eefc8fb-f00e-4952-a129-90189c4d1127",
