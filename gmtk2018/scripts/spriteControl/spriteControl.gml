@@ -44,7 +44,7 @@ else if(slowDown && slowReleased && attackReady  && (currentSprite = spr_playerI
 	currentImageIndex = 0;
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 }
-else if((currentSprite = spr_playerMidKick && (currentEle = "lightning" || currentEle = "earth") && slowDown && currentImageIndex = 2))
+else if((currentSprite = spr_playerMidKick && (currentEle = "lightning" || currentEle = "earth" || currentEle = "lava") && slowDown && currentImageIndex = 2))
 {
 	currentSprite = spr_playerMidKick;
 	currentImageIndex = 2;

@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "07529f6e-0058-40f9-86b4-6781d6c165f3",
+            "Value": {
+                "id": "c4aec16f-25eb-4e58-b267-9c281894d422",
+                "resourcePath": "objects\\obj_volcanoFireBall\\obj_volcanoFireBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "08547609-6be6-4f89-b579-db2940828305",
+            "Value": {
+                "id": "925d1e4c-ddb9-4b12-a7ff-510899d83f15",
+                "resourcePath": "objects\\obj_lavaVolcano\\obj_lavaVolcano.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09d7553f-2f79-43b6-899e-c2cb1958236e",
             "Value": {
                 "id": "9cfc0a1d-e8ad-4726-a1d3-f0d614c7da0c",
@@ -75,6 +91,14 @@
             "Value": {
                 "id": "ffa95268-9380-4226-a337-6f1e4770ccd6",
                 "resourcePath": "sprites\\spr_playerIdle\\spr_playerIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0ca3bc5d-1d99-456c-ad5c-600272fede39",
+            "Value": {
+                "id": "b151a166-7b36-481d-a87f-927afdadda0d",
+                "resourcePath": "sprites\\spr_lavaRock\\spr_lavaRock.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -299,6 +323,14 @@
             "Value": {
                 "id": "0e838445-df9d-4f7b-a092-c2549148684d",
                 "resourcePath": "sprites\\spr_vines_dying\\spr_vines_dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "50459ded-d575-4733-b339-deb30cda0214",
+            "Value": {
+                "id": "dc6ca1d0-f892-48f5-a180-8b6b24302c24",
+                "resourcePath": "sprites\\spr_volcanoStart\\spr_volcanoStart.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -628,6 +660,14 @@
                 "id": "d0214e59-df40-4858-9994-42805b6abd8c",
                 "resourcePath": "views\\961d900b-31e2-415e-be99-3c2320c6cb14.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "980995b3-4884-4070-8288-4ceac87938bb",
+            "Value": {
+                "id": "2b615f31-0c6e-4adb-97a8-b99539f82b43",
+                "resourcePath": "sprites\\spr_volcanoLoop\\spr_volcanoLoop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
