@@ -530,8 +530,16 @@
             "Key": "6a179419-8934-4e1b-85da-3f3bb21303c0",
             "Value": {
                 "id": "7b1b0f2b-3261-4bb9-8642-ec36f9cefe4e",
-                "resourcePath": "objects\\obj_playercount_decrease\\obj_playercount_decrease.yy",
+                "resourcePath": "objects\\obj_arrow_decrease\\obj_arrow_decrease.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6b6894b9-3c77-4c9a-b55f-fdba3d73fd91",
+            "Value": {
+                "id": "03ecce3b-ee22-4c62-aa72-84ebed4674b7",
+                "resourcePath": "sprites\\spr_backgrounds3\\spr_backgrounds3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -555,6 +563,14 @@
             "Value": {
                 "id": "c6a0801e-a48a-46f9-b2f0-9a302db42c75",
                 "resourcePath": "views\\6ed863bc-2e73-46f9-9c2e-eca6ac134bd6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "718265aa-0705-41a0-8bfa-36c9330654bb",
+            "Value": {
+                "id": "45545023-713b-4e8a-a7a7-9b38f6a2801f",
+                "resourcePath": "views\\718265aa-0705-41a0-8bfa-36c9330654bb.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -791,6 +807,14 @@
             }
         },
         {
+            "Key": "96641a7b-5087-4045-82ab-9e53b9cf1647",
+            "Value": {
+                "id": "c78d2815-1837-416d-8215-a39d56209af9",
+                "resourcePath": "sprites\\spr_backgrounds1\\spr_backgrounds1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "980995b3-4884-4070-8288-4ceac87938bb",
             "Value": {
                 "id": "2b615f31-0c6e-4adb-97a8-b99539f82b43",
@@ -834,7 +858,7 @@
             "Key": "a049307d-294f-4ebf-9697-45170daad4b7",
             "Value": {
                 "id": "baffe7bf-5334-474d-87b4-0064afc1d20d",
-                "resourcePath": "objects\\playercountdrawer\\playercountdrawer.yy",
+                "resourcePath": "objects\\countdrawer\\countdrawer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -975,10 +999,18 @@
             }
         },
         {
+            "Key": "c46b6642-ce31-40dd-8e40-db732ad84253",
+            "Value": {
+                "id": "c5054e14-6b70-4dcc-8a66-b994b3def566",
+                "resourcePath": "sprites\\spr_backgrounds2\\spr_backgrounds2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c504cb71-ab23-4039-9651-ce2e8b5c4c71",
             "Value": {
                 "id": "b10a7ff1-beca-4997-a49b-c54c9bf24624",
-                "resourcePath": "objects\\obj_playercount_increase\\obj_playercount_increase.yy",
+                "resourcePath": "objects\\obj_arrow_increase\\obj_arrow_increase.yy",
                 "resourceType": "GMObject"
             }
         },
