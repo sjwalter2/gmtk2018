@@ -71,6 +71,9 @@ if(stunned)
 }
 if(onFire) //forcedrun on fire
 {
+	stunned = 0
+	alarm_set(4,-1)
+	image_blend = c_red
 	switch facing{
 		case -1:
 			leftDown = 1;
@@ -85,8 +88,9 @@ if(onFire) //forcedrun on fire
 	{
 		vspeed -= hopSpeed	
 	}
+	
 }
-
+playerFireParticle()
 
 //crouch
 if(onGround && downDown)

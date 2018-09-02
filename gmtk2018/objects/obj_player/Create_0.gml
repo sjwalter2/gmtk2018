@@ -66,3 +66,5 @@ alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 
 alarm_set(1,-1);
 alarm_set(3,-1);
+
+playerParticle()
