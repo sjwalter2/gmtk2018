@@ -125,7 +125,7 @@ switch currentEle{
 		break;
 	case "steam":
 		fastAttackObj = obj_steambomb;
-		slowAttackObj = obj_steambomb;
+		slowAttackObj = obj_steamblast;
 		break;
 	default:
 		currentEle = 0;
