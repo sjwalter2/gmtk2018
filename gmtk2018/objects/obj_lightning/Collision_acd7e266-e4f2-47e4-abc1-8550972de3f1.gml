@@ -2,12 +2,7 @@
 // You can write your code in this editor
 if( other.id != creator && dying == 0)
 {
-	with(other)
-	{
-		stunned = 1;
-
-		alarm_set(4,other.stunTime+alarm_get(4));
-	}
+	knockBack(other, 0, 0, stunTime, 0, 0);
 	timeAlive = 0;
 	dying = 1;
 	hspeed = 0;

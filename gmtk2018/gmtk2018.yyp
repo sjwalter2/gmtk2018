@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "4d00d4ce-7683-4c80-b0ff-0d1bd200be64",
+            "Value": {
+                "id": "99b7bbaf-2c85-424c-a1fe-b14e9e78b7ee",
+                "resourcePath": "scripts\\setInvincible\\setInvincible.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4e436342-cec4-4f5c-a4de-88eee197f1ea",
             "Value": {
                 "id": "d1a347f4-d113-4132-b14a-2c7b0c243ab0",
@@ -692,6 +700,14 @@
                 "id": "c6a0801e-a48a-46f9-b2f0-9a302db42c75",
                 "resourcePath": "views\\6ed863bc-2e73-46f9-9c2e-eca6ac134bd6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f8bdbe9-4f26-4b22-a9b2-b425cfc854de",
+            "Value": {
+                "id": "b4e0a351-bc14-4b6c-a9b5-2fc7312bd5eb",
+                "resourcePath": "scripts\\knockBack\\knockBack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1585,7 +1601,9 @@
         "ae970290-afbc-4d41-afb1-d8e82a25171c",
         "6031a7c6-83a7-4625-9ba8-8bd3ddc575b5",
         "1526ce0c-1b27-425d-96f7-6412cbbb351c",
-        "6bd71380-f737-42ba-892a-6d4005a22df1"
+        "6bd71380-f737-42ba-892a-6d4005a22df1",
+        "6f8bdbe9-4f26-4b22-a9b2-b425cfc854de",
+        "4d00d4ce-7683-4c80-b0ff-0d1bd200be64"
     ],
     "tutorial": ""
 }

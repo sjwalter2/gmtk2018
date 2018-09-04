@@ -2,16 +2,20 @@
 // You can write your code in this editor
 if(other.id != creator)
 {
-	with(other)
+	if(!other.tempInvincibility)
 	{
-		alarm_set(4,20)	
+		with(other)
+		{
+			alarm_set(4,20)	
 
-		stunned = 1;
-		direction = other.direction
+			stunned = 1;
+			direction = other.direction
 		
-		speed = other.radius;
+			speed = other.radius;
 		
+		}
+		move_bounce_all(1)
+		hitSound();
+		setInvincible(other);
 	}
-	move_bounce_all(1)
-	hitSound();
 }

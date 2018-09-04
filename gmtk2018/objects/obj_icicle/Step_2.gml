@@ -45,13 +45,7 @@ if(!dying){
 				while(place_meeting(x,y,inst))
 					x++
 		}
-		inst.hspeed += (facing*hitEffect);
-		inst.fric = 0;
-		inst.grabLeft = 0
-		inst.grabRight = 0
-		with inst{
-			alarm_set(1,other.pushTime+alarm_get(1))	
-		}
+		knockBack(inst, facing*hitEffect, 0, 0, pushTime, 0);
 		sprite_index = spr_icicle_dying;
 		hitSound();
 		dying = 1;
