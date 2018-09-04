@@ -6,5 +6,7 @@ hspeedBase = 20;
 hitEffect = 32;
 dying = 0;
 creator = 0;
+creatorDistX = 0;
+creatorDistY = 0;
 pushTime=5;
 currentEle = "air";

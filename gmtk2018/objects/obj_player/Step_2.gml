@@ -40,7 +40,8 @@ if(keyCheck(global.fastKey, 0))
 }
 else
 {
-	joystickControls(playerNumber-1)
+	joystickControls(gamePadNum)
+
 }
 
 

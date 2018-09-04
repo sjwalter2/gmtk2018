@@ -2,7 +2,7 @@
 // You can write your code in this editor
 globalInit();
 playerNumber = 0;
-
+gamePadNum = -1;
 stock = global.stock;
 
 leftDown = 0
@@ -69,5 +69,6 @@ alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 
 alarm_set(1,-1);
 alarm_set(3,-1);
+alarm_set(6,1)
 
 playerParticle()
