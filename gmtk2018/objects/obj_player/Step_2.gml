@@ -254,7 +254,7 @@ if(grabRight || grabLeft)
 }
 
 //vertical collision
-if((currentSprite = spr_playerJumpStart || currentSprite = spr_playerWallJumpStart  )&& currentImageIndex = 2)
+if((currentSprite = spr_playerJumpStart && currentImageIndex = 0)||( currentSprite = spr_playerWallJumpStart && currentImageIndex = 2))
 {
 	if(currentSprite = spr_playerWallJumpStart && (grabLeft || grabRight))
 	{
