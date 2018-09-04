@@ -2,20 +2,9 @@
 // You can write your code in this editor
 if(image_yscale < 1)
 {
-	with(other)
-	{
-	stunned = 1
-	alarm_set(4,50)
-	vspeed = -100;
-	hspeed = hspeed + facing*25;
-	}
+	knockBack(other, facing*25, -other.vspeed-100, 50, 0, 0);
 	hitSound();
 } else {
-	with(other)
-	{
-	stunned = 1
-	alarm_set(4,20)
+	knockBack(other, 0, -other.vspeed-30, 20, 0, 0);
 
-	vspeed = -30;	
-	}
 }

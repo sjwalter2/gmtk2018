@@ -1,10 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-with(other)
-	{
-
-		fric = 0;
-		alarm_set(1,other.freezeTime+alarm_get(1));
-		if alarm_get(1) > maxSlipTime
-			alarm_set(1,maxSlipTime)
-	}
+knockBack(other, 0, 0, 0, freezeTime, 0);
+hitSound();

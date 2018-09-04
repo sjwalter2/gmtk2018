@@ -2,27 +2,15 @@
 // You can write your code in this editor
 if(landed)
 {
-	with(other)
-	{
-
-		fric = 0;
-		alarm_set(1,other.freezeTime+alarm_get(1));
-		if alarm_get(1) > maxSlipTime
-			alarm_set(1,maxSlipTime)
-	}
+		knockBack(other, 0, 0, 0, freezeTime, 0);
 } else if (!landed && other.id != creator)
 {
 	while !place_meeting(x+sign(hspeed),y,other)
       {
            x+=sign(hspeed);
       }
-	with(other)
-	{
-		fric = 0;
-		alarm_set(1,other.freezeTime+alarm_get(1));
-		if alarm_get(1) > maxSlipTime
-			alarm_set(1,maxSlipTime)
-	}
+	knockBack(other, 0, 0, 0, freezeTime, 0);
+
 //	if place_meeting(x,y,other)
 //	{
 //		if(x < other.x)

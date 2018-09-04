@@ -7,27 +7,15 @@ if attached == 0
 	if instance_exists(creator)
 	{
 		if other.id != creator{
-			other.hspeed += (facing*hitEffect);
-			other.fric = 0;
-			other.grabLeft = 0
-			other.grabRight = 0
-			with other{
-				alarm_set(1,other.pushTime+alarm_get(1))	
-			}
-			hspeed = - (hspeed * 0.7);
+			knockBack(other, facing*hitEffect, 0, 0, pushTime, 0);
 			attached = 1;
 			attachedPlayer = other;
 		}
 	} else {
-			other.hspeed += (facing*hitEffect);
-			other.fric = 0;
-			other.grabLeft = 0
-			other.grabRight = 0
-			with other{
-				alarm_set(1,other.pushTime+alarm_get(1))	
-			}
-			hspeed = - (hspeed * 0.7);
+		if other.id != creator{
+			knockBack(other, facing*hitEffect, 0, 0, pushTime, 0);
 			attached = 1;
 			attachedPlayer = other;
+		}
 	}
 }

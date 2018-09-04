@@ -2,10 +2,5 @@
 // You can write your code in this editor
 if(!charging )
 {
-	with(other)
-	{
-	stunned = 1
-	alarm_set(4,50)
-	vspeed = -100;	
-	}
+	knockBack(other, 0, -other.vspeed-100, 50, 0, 0);
 }

@@ -16,12 +16,5 @@ if blowingup == 0
 			alarm_set(1,15);
 		}
 } else {
-	other.hspeed += (facing*hitEffect);
-	other.fric = 0;
-	other.vspeed = other.vspeed - 20;
-	other.grabLeft = 0
-	other.grabRight = 0
-	with other{
-		alarm_set(1,other.pushTime+alarm_get(1))	
-	}
+	knockBack(other, facing*hitEffect, -35, 0, pushTime, 0);
 }

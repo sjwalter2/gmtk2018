@@ -59,6 +59,9 @@ slowAttackObj = 0;
 
 airKnockback = 8;
 
+invincibleFrames = 8; //number of frames the player will be invincible after getting hit by an attack.
+tempInvincibility = 0; //this becomes 1 when hit by an attack which causes invincibility frames. resets to 0 with Alarm 5
+
 currentSprite = spr_playerIdle;
 currentImageIndex = 0;
 currentImageDirection = 1;

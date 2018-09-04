@@ -45,23 +45,12 @@ if(!dying){
 				while(place_meeting(x,y,inst))
 					x++
 		}
-		if(inst.id != creator && dying == 0)
-		{
-			with(inst)
-			{
-				stunned = 1;
-				alarm_set(4,other.stunTime+alarm_get(4));
-				if alarm_get(4) > maxStunTime
-					alarm_set(4,maxStunTime);
-					
-			 
-			}
-			timeAlive = 0;
-			dying = 1;
-			hspeed = 0;
-			hitSound();
+		knockBack(inst, facing*hitEffect, 0, stunTime, 0, 0);
+		timeAlive = 0;
+		dying = 1;
+		hspeed = 0;
+		hitSound();
 
-		}
 	} else {
 		hspeed = hspeedBase * facing;
 	}
