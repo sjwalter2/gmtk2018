@@ -3,9 +3,9 @@
 
 
 var i;
-for (i = 0; i < instance_number(obj_respawn); i += 1)
+for (i = 0; i < instance_number(obj_platform); i += 1)
    {
-   respawners[i] = instance_find(obj_respawn,i);
+   respawners[i] = instance_find(obj_platform,i);
    }
 
 if global.playerCounter > array_length_1d(respawners)

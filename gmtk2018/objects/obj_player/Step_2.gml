@@ -354,7 +354,7 @@ if x < -700 || x > room_width + 700 || y < -700 || y > room_height + 700
 	var spawner = instance_find(obj_spawner,0);
 	var respawn = spawner.respawners[irandom(array_length_1d(spawner.respawners)-1)];
 	x = respawn.x;
-	y = respawn.y;
+	y = 0;
 	hspeed = 0;
 	vspeed = 0;
 	onFire = 0;
