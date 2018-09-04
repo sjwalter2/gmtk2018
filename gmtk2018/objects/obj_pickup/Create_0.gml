@@ -1,26 +1,32 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+player = 0;
 randomize();
 var seed = irandom(3);
 switch seed{
 	case 0:
 		element = "air";
-		sprite_index = spr_air_pickup;
+		color = c_white
+		sprite_index = spr_air_pickup1;
 		break;
 	case 1:
 		element = "water";
-		sprite_index = spr_water_pickup;
+		color = c_teal
+		sprite_index = spr_water_pickup1;
 		break;
 	case 2:
 		element = "fire";
-		sprite_index = spr_fire_pickup;
+		color = c_red
+		sprite_index = spr_fire_pickup1;
 		break;
 	case 3:
 		element = "earth";
-		sprite_index = spr_earth_pickup;
+		color = c_orange
+		sprite_index = spr_earth_pickup1;
 		break;
 }
+image_xscale = 1.5
+image_yscale = 1.5
 grav = 1;
 maxfallspeed = 10;
 timeAlive = 0;

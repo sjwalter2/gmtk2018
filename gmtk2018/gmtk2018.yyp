@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "8983290d-3e71-48bf-9a28-b1b2399b9b37",
+            "Value": {
+                "id": "455d58b7-a561-49f4-a7e0-b0ee374f52e0",
+                "resourcePath": "sprites\\spr_earth_pickup1\\spr_earth_pickup1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89ff744a-8c16-4536-8a88-e9522e4780b6",
             "Value": {
                 "id": "3661a12c-3ead-4464-93ce-614058bb6744",
@@ -1247,6 +1255,14 @@
             }
         },
         {
+            "Key": "c512f384-3150-477c-8f1d-7141219cc9cd",
+            "Value": {
+                "id": "7c79d0d3-b20c-4fdb-8685-8639f4053809",
+                "resourcePath": "sprites\\spr_air_pickup1\\spr_air_pickup1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c592e983-3bc4-482f-9a1f-5c862c3d7198",
             "Value": {
                 "id": "a0619b7d-4987-4c13-b2ec-5fe0d33abe9b",
@@ -1439,6 +1455,14 @@
             }
         },
         {
+            "Key": "ea07efc6-abf2-4706-ab2f-4b00f52395a4",
+            "Value": {
+                "id": "5139a07e-fe35-44cb-a1b9-8c305eb6f558",
+                "resourcePath": "sounds\\snd_powerup\\snd_powerup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ea1a320a-4d94-4761-bb8e-77824ccc6564",
             "Value": {
                 "id": "090ca275-ba3d-498b-ad5a-9ece36c55f1d",
@@ -1500,6 +1524,14 @@
                 "id": "9724b00c-4b5d-41d3-8b94-fb508c0e43fb",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4742d07-fe0c-43ef-867e-0a5d32c3a688",
+            "Value": {
+                "id": "58b75633-f873-41f4-9c0e-ad6651e79a3d",
+                "resourcePath": "sprites\\spr_fire_pickup1\\spr_fire_pickup1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1588,6 +1620,14 @@
                 "id": "4e881e5a-8bbc-49d5-b554-791eb816eee6",
                 "resourcePath": "objects\\obj_lightning\\obj_lightning.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fdcce98d-1d9e-412b-878b-12bfd585193f",
+            "Value": {
+                "id": "24e9e2d5-ee0e-4d4f-9664-f85855d30a6b",
+                "resourcePath": "sprites\\spr_water_pickup1\\spr_water_pickup1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
