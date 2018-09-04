@@ -22,20 +22,20 @@ fallTime = 4
 fastFall = 10
 jumpTime = 4
 jumpReady = 0
-hopSpeed = 50
+hopSpeed = 55
 jumpSpeed = 25
 onGround = 0
 bouncePrep = 0
 bounceHeight = 7
-grabLength = 12
+grabLength = 25
 
-fallSpeed = 60
+fallSpeed = 80
 maxSpeed = 32
 speedGrowth = 4
 grabRight = 0
 grabLeft = 0
 fric = 5
-grav = 3.5
+grav = 4.5
 
 stunned = 0
 maxStunTime = 50

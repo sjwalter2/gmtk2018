@@ -112,8 +112,8 @@ switch currentEle{
 		slowAttackObj = obj_earthTriangle;
 		break;
 	case "plant":
-		slowAttackObj = obj_bouncing_plant;
-		fastAttackObj = obj_vines;
+		slowAttackObj = obj_vineExtend;
+		fastAttackObj = obj_bouncing_plant;
 		break;
 	case "lava":
 		fastAttackObj = obj_lavaBlast;

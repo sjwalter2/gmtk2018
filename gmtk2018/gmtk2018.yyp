@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "204faf67-0605-4576-a246-cb92ca8e7978",
+            "Value": {
+                "id": "566ff041-6d7b-44b2-8592-076eb265d682",
+                "resourcePath": "sprites\\spr_vineBase\\spr_vineBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2379fd64-0bee-4c85-a4f2-5d6f2e2905bd",
             "Value": {
                 "id": "e630905c-6820-41bd-b1c9-32567f4a9d92",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "3282c9b7-e7a5-4d9d-94db-fbe2dd123f85",
+            "Value": {
+                "id": "28aaa35e-425b-4fc3-ae5c-8ac32d2f6bbd",
+                "resourcePath": "objects\\obj_vineClaw\\obj_vineClaw.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32de7edd-5e07-48bb-9714-117dbcfc90c5",
             "Value": {
                 "id": "78a27cfa-9d39-4d0d-8250-e08a783c15f4",
@@ -455,6 +471,14 @@
             }
         },
         {
+            "Key": "42726c00-9dfc-4b60-8fa1-33dbc81acec3",
+            "Value": {
+                "id": "f5dc47b6-cd68-4ba9-9737-9b7759bc801d",
+                "resourcePath": "objects\\obj_vineExtend\\obj_vineExtend.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "46f2208a-a1ee-4b6a-bb00-b06fd8734c50",
             "Value": {
                 "id": "b135570a-e0a8-4589-9fc7-0a28b204244b",
@@ -492,6 +516,14 @@
                 "id": "99b7bbaf-2c85-424c-a1fe-b14e9e78b7ee",
                 "resourcePath": "scripts\\setInvincible\\setInvincible.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4d2adc2d-d43c-4db0-8174-0a498fc183f8",
+            "Value": {
+                "id": "3d3b2fbe-46c1-4ef7-89a5-0e55e1894378",
+                "resourcePath": "sprites\\spr_vineClaw\\spr_vineClaw.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -956,6 +988,14 @@
                 "id": "d53b6513-e35d-4e5a-9e99-0130e7e2d71a",
                 "resourcePath": "scripts\\keyCheck\\keyCheck.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "933693fe-9ec3-427e-9594-4232d25d96c5",
+            "Value": {
+                "id": "e405bb7b-23ed-4cbb-bdef-c27b5fc46db3",
+                "resourcePath": "sprites\\spr_vineLength\\spr_vineLength.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

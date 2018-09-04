@@ -55,8 +55,7 @@ if(!dying){
 		}
 		else
 		{
-			creator.y = creator.y -30;
-			creator.vspeed = -15;
+			creator.vspeed = -35;
 			creator.hspeed = hspeed;
 		}
 	}

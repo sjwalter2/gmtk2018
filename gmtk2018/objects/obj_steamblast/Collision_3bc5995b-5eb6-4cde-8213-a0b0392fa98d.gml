@@ -16,5 +16,5 @@ if blowingup == 0
 			alarm_set(1,15);
 		}
 } else {
-	knockBack(other, facing*hitEffect, -35, 0, pushTime, 0);
+	knockBack(other, facing*hitEffect, -55, 0, pushTime, 0);
 }

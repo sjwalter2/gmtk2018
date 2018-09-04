@@ -19,6 +19,7 @@ if( (abs(x - xstart) >= maxDist || creator.currentImageIndex != 1 )&& charging)
 if(!charging && image_yscale < 1)
 {
 	image_yscale += .3	
+	alarm_set(2,10)
 }
 }
 else

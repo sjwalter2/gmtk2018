@@ -86,7 +86,7 @@ if(onFire) //forcedrun on fire
 	}
 	if(onGround && irandom(50) = 0)
 	{
-		vspeed -= hopSpeed	
+		vspeed = -hopSpeed	
 	}
 	
 }
@@ -268,7 +268,7 @@ if((currentSprite = spr_playerJumpStart && currentImageIndex = 0)||( currentSpri
 	}
 	else
 	{
-		vspeed -= hopSpeed
+		vspeed = -hopSpeed
 		audio_play_sound(snd_jump,0,0);
 	}
 	grabRight = 0
