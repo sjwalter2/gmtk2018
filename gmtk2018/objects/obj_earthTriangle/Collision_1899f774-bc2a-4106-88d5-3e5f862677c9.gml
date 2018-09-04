@@ -2,13 +2,17 @@
 // You can write your code in this editor
 if(!charging )
 {
-	with(other)
+	if(!other.tempInvincibility)
 	{
-	stunned = 1
-	alarm_set(4,50)
-	speed = other.speed	
-	direction = other.direction
+		with(other)
+		{
+		stunned = 1
+		alarm_set(4,50)
+		speed = other.speed	
+		direction = other.direction
+		}
+		speed = 0;
+		image_speed = 1;
+		setInvincible(other);
 	}
-	speed = 0;
-	image_speed = 1;
 }
