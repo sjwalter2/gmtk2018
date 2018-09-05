@@ -5,8 +5,7 @@ if(!charging && alarm_get(2) > -1 && other.id != creator && image_alpha = 1 && a
 	with(other)
 	{
 		vspeed = -80
-		while(place_meeting(x,y-2,other))
-			y--;
+		y = other.bbox_top - 10
 	}
 	
 	knockBack(other,0, 0, 50, 0, 0);

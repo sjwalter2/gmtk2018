@@ -16,10 +16,15 @@ if( (abs(x - xstart) >= maxDist || creator.currentImageIndex != 1 )&& charging)
 	charging = 0;
 	creator.currentImageIndex++;
 }
-if(!charging && image_yscale < 1)
+if(!charging && image_yscale < 1.3 && !reached)
 {
-	image_yscale += .3	
+	image_yscale += .2	
 	alarm_set(2,10)
+}
+else if(!reached && image_yscale >= 1.3)
+{
+	reached =1;
+	image_yscale = 1;		
 }
 }
 else

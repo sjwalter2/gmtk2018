@@ -9,6 +9,8 @@ landed = 0;
 grav = 3;
 dying = 0;
 creator = 0;
+landX = 0
+landY = 0
 currentEle = "plant";
 alarm_set(0,1);
 depth = -20;

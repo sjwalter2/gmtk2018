@@ -30,6 +30,7 @@ if(!dying){
 			if(sign(vspeed)==1 )
 			{
 				landed = 1;
+				
 				hitSound();
 			}
 			while !place_meeting(x,y+sign(vspeed),obj_platform)
@@ -39,6 +40,8 @@ if(!dying){
 			vspeed = 0;
 			hspeed = 0;
 			sprite_index = spr_bouncing_plant;
+			landX = x
+			landY = y
 			timeAlive = 0;
 		}
 
@@ -50,6 +53,9 @@ if(!dying){
 			timeAlive = 0;
 		}
 	} else {
+		x = landX
+		y = landY
+		speed = 0;
 		timeAlive += 1;
 		if timeAlive >= maxTimeAlive
 		{
@@ -58,6 +64,9 @@ if(!dying){
 		}
 	}
 } else {
+	x = landX
+	y = landY
+	speed = 0;
 	image_alpha-=0.1
 	timeAlive += 1;
 	if timeAlive >= 15
