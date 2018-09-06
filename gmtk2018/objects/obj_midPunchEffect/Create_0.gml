@@ -3,3 +3,4 @@
 creator = 0;
 currentEle = 0;
 start = 1;
+hitEnemy = [];

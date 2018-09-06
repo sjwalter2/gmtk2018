@@ -6,6 +6,6 @@ hspeedBase = 90;
 hitEffect = 64;
 dying = 0;
 creator = 0;
-stunTime = 25;
+stunTime = 40;
 currentEle = "lightning"
 
