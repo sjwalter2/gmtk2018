@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "2d0adfc5-27bf-45d4-8dc2-baae2bb227c5",
+            "Value": {
+                "id": "6c8a25a3-6a54-42e5-a902-463e29aa428a",
+                "resourcePath": "sprites\\spr_playerStunIdle\\spr_playerStunIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f20fbb1-765f-43bb-81ea-c436d8b3c9ed",
             "Value": {
                 "id": "4789e206-a926-42a2-9d8a-45fa314225b3",
