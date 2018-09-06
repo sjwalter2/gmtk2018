@@ -13,6 +13,6 @@ if(!charging )
 		}
 		speed = 0;
 		image_speed = 1;
-		setInvincible(other);
+		setInvincible(other,0);
 	}
 }
