@@ -41,7 +41,7 @@ if(instance_exists(player)){
 					alarm_set(3,maxOnFireTime);
 			}
 		}
-		setInvincible(player);
+		setInvincible(player,0);
 	}
 }
 

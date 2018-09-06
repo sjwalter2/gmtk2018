@@ -46,9 +46,9 @@ part_type_life(type, 30, 60);
 /// @DnDVersion : 1
 /// @DnDHash : 78B8DFDD
 /// @DnDArgument : "minsize" "1"
-/// @DnDArgument : "maxsize" "2"
-/// @DnDArgument : "sizeincr" "0.1"
-part_type_size(type, 1, 2, 0.1, 0);
+/// @DnDArgument : "maxsize" "1.8"
+/// @DnDArgument : "sizeincr" "0.09"
+part_type_size(type, 1, 1.8, 0.09, 0);
 
 /// @DnDAction : YoYo Games.Particles.Part_Type_Direction
 /// @DnDVersion : 1

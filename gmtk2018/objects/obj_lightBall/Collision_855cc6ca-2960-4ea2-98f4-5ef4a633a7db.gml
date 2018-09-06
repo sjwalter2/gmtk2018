@@ -16,6 +16,6 @@ if(other.id != creator)
 		}
 		move_bounce_all(1)
 		hitSound();
-		setInvincible(other);
+		setInvincible(other,0);
 	}
 }

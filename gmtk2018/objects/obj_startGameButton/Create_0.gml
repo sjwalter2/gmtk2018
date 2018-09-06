@@ -13,3 +13,4 @@ global.playerColor[3] = make_color_hsv(200,225,255);
 		if global.music
 			audio_play_sound(mus0,0,1);
 	}
+	

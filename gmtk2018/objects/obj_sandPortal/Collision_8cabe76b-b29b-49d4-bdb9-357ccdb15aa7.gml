@@ -17,7 +17,7 @@ if(other.id != creator.id && charging)
 		other.creator.y = moveY
 
 		}
-		setInvincible(other);
+		setInvincible(other,0);
 		instance_destroy()
 	}
 }

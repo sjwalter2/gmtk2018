@@ -365,5 +365,5 @@ if x < -700 || x > room_width + 700 || y < -700 || y > room_height + 700
 
 	setElement(0);
 	setElement(0);
-	setInvincible(self);
+	setInvincible(self,120);
 }
