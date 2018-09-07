@@ -19,18 +19,18 @@ if(leftStickV > .2)
 	downDown = 1;	
 }
 
-if(gamepad_is_connected(playerNum) && (gamepad_button_check(playerNum, gp_face4) || gamepad_button_check_released(playerNum, gp_face4)))
+if(gamepad_is_connected(playerNum) && (gamepad_button_check(playerNum, gp_face4)))
 {
 	jumpDown = 1;
 }
 
-if(gamepad_is_connected(playerNum) && gamepad_button_check_released(playerNum, gp_face4))
+if(gamepad_is_connected(playerNum) && gamepad_button_check_released(playerNum, gp_face4) && !(gamepad_button_check(playerNum, gp_face4)))
 {
 	jumpReleased = 1;
 }
 
 
-if(gamepad_is_connected(playerNum) && (gamepad_button_check(playerNum, gp_face1) || gamepad_button_check_released(playerNum, gp_face1)))
+if(gamepad_is_connected(playerNum) && (gamepad_button_check(playerNum, gp_face1) ))
 {
 	fastDown = 1;
 }
@@ -40,7 +40,7 @@ if(gamepad_is_connected(playerNum) && gamepad_button_check_released(playerNum, g
 	fastReleased = 1;
 }
 
-if(gamepad_is_connected(playerNum) && (gamepad_button_check(playerNum, gp_face2) || gamepad_button_check_released(playerNum, gp_face2)))
+if(gamepad_is_connected(playerNum) && (gamepad_button_check(playerNum, gp_face2)))
 {
 	slowDown = 1;
 }

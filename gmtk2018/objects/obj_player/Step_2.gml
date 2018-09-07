@@ -266,7 +266,7 @@ if((currentSprite = spr_playerJumpStart && currentImageIndex = 0)||( currentSpri
 {
 	if(currentSprite = spr_playerWallJumpStart && (grabLeft || grabRight))
 	{
-		hspeed = -hopSpeed/2 * currentImageDirection;
+		hspeed = -hopSpeed/4 * currentImageDirection;
 		currentImageDirection = -currentImageDirection	
 	}
 	if(vspeed < 0)
@@ -280,6 +280,7 @@ if((currentSprite = spr_playerJumpStart && currentImageIndex = 0)||( currentSpri
 	}
 	grabRight = 0
 	grabLeft = 0
+	jumpDown = 0
 	jumpReleased = 0
 	alarm_set(0,0)
 }

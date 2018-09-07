@@ -14,9 +14,9 @@ if(currentSprite = spr_playerStunIdle && spawned)
 
 if(currentSprite = spr_playerStunIdle)
 {
-	draw_sprite_ext(currentSprite,currentImageIndex,x,y-sprite_height/2-15,currentImageDirection,1,0,c_white,currentAlpha+modifier);
+	draw_sprite_ext(currentSprite,currentImageIndex,x,y-sprite_height/2,currentImageDirection,1,0,c_white,currentAlpha+modifier);
 	
 
 }
 else
-	draw_sprite_ext(currentSprite,currentImageIndex,x,y-sprite_height/2-15,currentImageDirection,1,0,image_blend,currentAlpha+modifier);
+	draw_sprite_ext(currentSprite,currentImageIndex,x,y-sprite_height/2,currentImageDirection,1,0,image_blend,currentAlpha+modifier);

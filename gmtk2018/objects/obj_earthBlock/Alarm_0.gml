@@ -7,5 +7,7 @@ with(obj_earthBlock)
 		instance_destroy(other);	
 	}
 }
+sprite_index = spr_earthBlock
 dir = creator.currentImageDirection
+x = creator.x + 150*dir
 image_alpha = 1

@@ -19,7 +19,7 @@ fastReleased = 1;
 
 fallTimer = 0
 fallTime = 4
-fastFall = 10
+fastFall = 5
 jumpTime = 4
 jumpReady = 0
 hopSpeed = 55
@@ -27,14 +27,14 @@ jumpSpeed = 25
 onGround = 0
 bouncePrep = 0
 bounceHeight = 7
-grabLength = 25
+grabLength = 60
 
 fallSpeed = 80
 maxSpeed = 32
 speedGrowth = 4
 grabRight = 0
 grabLeft = 0
-fric = 5
+fric = 8
 grav = 4.5
 
 stunned = 0
@@ -48,8 +48,8 @@ onFire = 0;
 facing = 1; //1 is right, -1 is left
 
 timeSinceAttack = 0;
-slowAttackDelay = 30;
-fastAttackDelay = 12;
+slowAttackDelay = 35;
+fastAttackDelay = 20;
 
 ele0 = 0; //newest element picked up
 ele1 = 0; //oldest element picked up

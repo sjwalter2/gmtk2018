@@ -20,6 +20,7 @@ if(!rightDown && !leftDown && currentSprite = spr_playerRun)
 
 if(fastDown && fastReleased && attackReady && (currentSprite = spr_playerIdle || currentSprite = spr_playerJumpIdle || currentSprite = spr_playerRun))
 {
+	
 	currentSprite = spr_playerMidPunch;
 	var effect =  instance_create_depth(x,y-sprite_height/2,depth-1,obj_midPunchEffect);
 	effect.creator = id;

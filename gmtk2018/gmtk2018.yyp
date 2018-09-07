@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "028fe6cc-bcaf-4115-b292-9b7e2b2e1b27",
+            "Value": {
+                "id": "20a54d45-a7b3-4e42-86b3-7a0bb9506669",
+                "resourcePath": "sprites\\spr_earthBlock1\\spr_earthBlock1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02b44f49-bfc5-4452-b129-96200f680b72",
             "Value": {
                 "id": "86c7dd30-b4c8-4d97-b3f4-d53fc526858c",

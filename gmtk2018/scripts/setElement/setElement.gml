@@ -124,8 +124,8 @@ switch currentEle{
 		slowAttackObj = obj_sandPortal;
 		break;
 	case "steam":
-		fastAttackObj = obj_steambomb;
-		slowAttackObj = obj_steamblast;
+		fastAttackObj = obj_steamblast;
+		slowAttackObj = obj_steambomb;
 		break;
 	default:
 		currentEle = 0;
