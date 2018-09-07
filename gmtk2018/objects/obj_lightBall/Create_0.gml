@@ -8,7 +8,9 @@ alarm_set(0,1)
 currentEle = "lightning"
 offsetY = -30;
 offsetX = 60;
-
+currentPlatform = noone;
+lastPlatform = noone;
+onPlatform = 0;
 system = part_system_create_layer("Instances", 0);
 
 type = part_type_create();

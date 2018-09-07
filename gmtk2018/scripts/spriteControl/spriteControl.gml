@@ -90,3 +90,9 @@ if(onGround && currentSprite = spr_playerJumpIdle)
 	currentImageIndex = 0;
 	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
 }
+if(stunned && currentSprite != spr_playerStunIdle)
+{
+	currentSprite = spr_playerStunIdle;	
+	currentImageIndex = 0;
+	alarm_set(2,room_speed/sprite_get_speed(currentSprite))
+}
