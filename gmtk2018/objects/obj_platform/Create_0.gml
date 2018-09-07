@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+creator = "";
 var color = make_color_hsv(irandom(255),105,155)
 image_speed = .5
 with(obj_platform)
