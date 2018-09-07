@@ -3,27 +3,39 @@
 if(instance_exists(creator))
 {
 if(!dying){
+	var blocked = 0; //if this is set to 1 there is a platform that is not an airwall owned by the creator
+	
 	//horizontal collision
 	if place_meeting(x+hspeed,y,obj_platform)
 	{
-		while !place_meeting(x+sign(hspeed),y,obj_platform)
-	      {
-	           x+=sign(hspeed);
-	      }
-		if place_meeting(x,y,obj_platform)
+		var inst = instance_place(x+hspeed,y,obj_platform)
+		if object_get_name(inst.object_index) == "obj_air_wall"
 		{
-			var inst = instance_place(x,y,obj_platform)
-			if(x < inst.x)
-				while(place_meeting(x,y,inst))
-					x--
-			else
-				while(place_meeting(x,y,inst))
-					x++
+			if inst.creator != creator {
+				blocked = 1;
+			}
+		} else {
+			blocked = 1;
 		}
-		sprite_index = spr_air_dying;
-		hitSound();
-		dying = 1;
-		timeAlive = 0;
+		if blocked {
+			while !place_meeting(x+sign(hspeed),y,inst)
+		      {
+		           x+=sign(hspeed);
+		      }
+			if place_meeting(x,y,inst)
+			{
+				if(x < inst.x)
+					while(place_meeting(x,y,inst))
+						x--
+				else
+					while(place_meeting(x,y,inst))
+						x++
+			}
+			sprite_index = spr_air_dying;
+			hitSound();
+			dying = 1;
+			timeAlive = 0;
+		}
 	}
 
 	//collision with player
