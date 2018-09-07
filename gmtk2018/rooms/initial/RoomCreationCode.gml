@@ -8,4 +8,4 @@ while room_exists(i+2){
 	i += 1;
 }
 global.numberOfLevels = i-1;
-room_goto_next();
+

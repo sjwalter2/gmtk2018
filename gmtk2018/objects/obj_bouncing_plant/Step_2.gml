@@ -3,6 +3,7 @@
 
 if(!dying){
 	if(!landed){
+		timeAlive = 0;
 		//horizontal collision
 		if place_meeting(x+hspeed,y,obj_platform)
 		{

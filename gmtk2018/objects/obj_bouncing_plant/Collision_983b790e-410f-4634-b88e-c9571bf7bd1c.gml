@@ -15,10 +15,11 @@ hitSound();
 with(other)
 {
 	vspeed -= other.hitEffect;
-	if(x > other.x)
-		hspeed = other.horizHitEffect;
-	else
-		hspeed = -other.horizHitEffect;
+	hspeed = hspeed*.8
+	if(abs(hspeed) < 10)
+	{
+		hspeed = 10*irandom_range(-2,2)	
+	}
 }
 }
 }

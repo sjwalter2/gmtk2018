@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0c31866e-57d5-44fc-b4fd-9a0edec86e2f",
+            "Value": {
+                "id": "14319d95-25b6-47ba-97e0-3acdd03cd02b",
+                "resourcePath": "rooms\\room6\\room6.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0ca3bc5d-1d99-456c-ad5c-600272fede39",
             "Value": {
                 "id": "b151a166-7b36-481d-a87f-927afdadda0d",
@@ -1271,6 +1279,14 @@
             }
         },
         {
+            "Key": "bfbebaf3-695a-4a31-a3b3-dc65bb2ac3e0",
+            "Value": {
+                "id": "0e10b163-e4c6-484e-8a46-6696f9dfc6d8",
+                "resourcePath": "sprites\\spr_titleScreen\\spr_titleScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c04ef70a-7ed2-4bf8-8ce4-53b1eeca31f9",
             "Value": {
                 "id": "26335530-06a5-4eb1-a980-4b6a9eeb42ad",
@@ -1636,6 +1652,14 @@
                 "id": "5a8350da-4e35-4799-ba99-bc663c1b4c10",
                 "resourcePath": "shaders\\shd_platforms\\shd_platforms.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "f948fb3f-e36f-40b5-9004-744368ad2831",
+            "Value": {
+                "id": "efe46c76-542e-4670-8840-e317bec1c3b1",
+                "resourcePath": "objects\\obj_splash\\obj_splash.yy",
+                "resourceType": "GMObject"
             }
         },
         {

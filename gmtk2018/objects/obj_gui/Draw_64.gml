@@ -41,9 +41,12 @@ if(instance_number(obj_player) < 2)
 	play = id;
 	
 }
+if(play != 0)
+{
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_top)
 	draw_set_font(font1)
+	
 	var num = play.playerNumber
 	draw_set_color(c_black)
 	draw_set_alpha(.3)
@@ -54,5 +57,22 @@ if(instance_number(obj_player) < 2)
 	
 	draw_text(display_get_gui_width()/2,display_get_gui_height()/2-30,"PLAYER "+ string(num+1) + " WINS!");
 	draw_set_color(c_white)
+}
+else
+{
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_top)
+	draw_set_font(font1)
+	
 
+	draw_set_color(c_black)
+	draw_set_alpha(.3)
+	draw_rectangle(display_get_gui_width()/2-300,display_get_gui_height()/2-50,display_get_gui_width()/2+300,display_get_gui_height()/2+50,0)
+	draw_set_alpha(1)
+	
+	draw_set_color(c_white)
+	
+	draw_text(display_get_gui_width()/2,display_get_gui_height()/2-30,"DRAW");
+	draw_set_color(c_white)	
+}
 }

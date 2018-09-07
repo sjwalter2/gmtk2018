@@ -55,7 +55,14 @@ else
 {
 	friction = 0	
 }
-
+if(onGround)
+	spawned = 0
+if(spawned)
+{
+	stunned = 1;
+	alarm_set(4,1)
+	setInvincible(self,30);
+}
 
 //no input if stunned or onFire
 if(stunned)
@@ -366,4 +373,5 @@ if x < -700 || x > room_width + 700 || y < -700 || y > room_height + 700
 	setElement(0);
 	setElement(0);
 	setInvincible(self,120);
+	spawned = 1
 }
