@@ -11,7 +11,7 @@ part_type_direction(fire, direction + 135, direction + 225, 0, 0);
 
 part_particles_create(system, x + 0, y + irandom(-sprite_height), fire, 2-2/alarm_get(3)/4);
 }
-if(stunned && !spawned)
+if(stunned && !spawned && !fishing)
 {
 	part_type_size(stun, .5, 1, -.1, 0);
 part_type_sprite(stun, spr_stunBolts, true, false, false);

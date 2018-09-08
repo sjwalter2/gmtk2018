@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0794a7d4-b384-46cc-8224-9b8c7ffd7f95",
+            "Value": {
+                "id": "eeaf3439-1d29-494b-8949-56958d46ad77",
+                "resourcePath": "sprites\\spr_playerFishStart\\spr_playerFishStart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08547609-6be6-4f89-b579-db2940828305",
             "Value": {
                 "id": "925d1e4c-ddb9-4b12-a7ff-510899d83f15",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "25c3600d-6fa7-446c-b774-21da8fe6d6e3",
+            "Value": {
+                "id": "6a80cf0b-9f27-4431-aa7b-bf68f25c18a3",
+                "resourcePath": "sprites\\spr_fishingHook\\spr_fishingHook.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25e39796-8eca-437b-9777-96a834e992e3",
             "Value": {
                 "id": "1bb86d9b-632e-4b38-a182-174cab7a1055",
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "44669a69-bbb3-4ca3-b9d0-75eba9adfb31",
+            "Value": {
+                "id": "678270d9-c798-4322-b4b4-c6e4b4bca3ca",
+                "resourcePath": "sprites\\spr_playerFishLaunch\\spr_playerFishLaunch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "46f2208a-a1ee-4b6a-bb00-b06fd8734c50",
             "Value": {
                 "id": "b135570a-e0a8-4589-9fc7-0a28b204244b",
@@ -655,6 +679,14 @@
             }
         },
         {
+            "Key": "61e1e258-bd98-45ea-bd3e-5c7881e41797",
+            "Value": {
+                "id": "d04359a0-d35d-4afc-8c96-e11af4540186",
+                "resourcePath": "objects\\obj_geyserBody\\obj_geyserBody.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61f94e2c-4e81-4120-b7e8-01a6438667bc",
             "Value": {
                 "id": "b5105d57-356f-45fa-a22e-bc4df1d9a087",
@@ -783,6 +815,14 @@
             }
         },
         {
+            "Key": "708d8449-8a8f-48c8-a9e5-a323203919e5",
+            "Value": {
+                "id": "cc5587d0-9f59-4067-ad14-1be148b0625a",
+                "resourcePath": "objects\\obj_playerFish\\obj_playerFish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "718265aa-0705-41a0-8bfa-36c9330654bb",
             "Value": {
                 "id": "45545023-713b-4e8a-a7a7-9b38f6a2801f",
@@ -876,6 +916,14 @@
                 "id": "e8fc4b16-39a7-41e3-b8b8-2440deb9ad44",
                 "resourcePath": "objects\\obj_midKickEffect\\obj_midKickEffect.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7a6b8c04-a4d5-4cc4-8346-cb0d53784e53",
+            "Value": {
+                "id": "5345099e-5b1f-4fb8-aa77-fac5972db64a",
+                "resourcePath": "sprites\\spr_geyserTop\\spr_geyserTop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1015,6 +1063,14 @@
             }
         },
         {
+            "Key": "9080feea-cf43-48bd-b84f-fb67033597ad",
+            "Value": {
+                "id": "1d1aef10-31fc-47bb-9322-d95662121248",
+                "resourcePath": "sprites\\spr_playerFishReel\\spr_playerFishReel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "91931e12-023f-48d7-a8d4-667fa5634260",
             "Value": {
                 "id": "d53b6513-e35d-4e5a-9e99-0130e7e2d71a",
@@ -1047,11 +1103,27 @@
             }
         },
         {
+            "Key": "951cf4ca-7997-476c-a607-4e422aba5286",
+            "Value": {
+                "id": "16e5c213-1566-4632-b1e8-6d4a0fbcfdfa",
+                "resourcePath": "sprites\\spr_geyserBodyDie\\spr_geyserBodyDie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "951d2e48-c140-496b-b899-6d5e53bdea8c",
             "Value": {
                 "id": "aadc9f57-3ff0-417c-8cfe-bc9929824aec",
                 "resourcePath": "sounds\\snd_water\\snd_water.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "95394f4c-0cef-4f6a-bc3b-8407feb69a3d",
+            "Value": {
+                "id": "96daec00-3a19-4ec6-bf7f-7be8eb9b744e",
+                "resourcePath": "sprites\\spr_geyserBody\\spr_geyserBody.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1092,6 +1164,14 @@
                 "id": "84802917-6050-4431-89f0-8ea4efa14480",
                 "resourcePath": "views\\9bf56a4d-7cda-44a8-97bd-c23b020d76e2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ca09323-7b29-429f-b9f4-096dd99133db",
+            "Value": {
+                "id": "d228e511-1b7e-44da-84d4-4f4084a38be0",
+                "resourcePath": "objects\\obj_playerOutline\\obj_playerOutline.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1199,6 +1279,14 @@
             }
         },
         {
+            "Key": "accc6250-8299-4c0b-8fca-31d9d32172ad",
+            "Value": {
+                "id": "719b482f-e0fc-434b-8ea7-cb24dcaffb8e",
+                "resourcePath": "objects\\obj_fishHook\\obj_fishHook.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ad53f2ee-53d3-4f52-9914-52b83ae8b29a",
             "Value": {
                 "id": "b37aaaf6-7a84-4953-ae2b-f7858565ed0c",
@@ -1268,6 +1356,14 @@
                 "id": "dbc5b264-90cb-41d9-8f95-99b80446047b",
                 "resourcePath": "sounds\\snd_scream4\\snd_scream4.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b77c703a-8fd5-43d4-a93d-47a491f9f9cb",
+            "Value": {
+                "id": "07c7d61a-813f-481b-bdca-68b33471a200",
+                "resourcePath": "objects\\obj_geyser\\obj_geyser.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1483,6 +1579,14 @@
             "Value": {
                 "id": "9943b850-1a1a-47e5-9534-d6747312d32d",
                 "resourcePath": "sprites\\spr_playerJumpStart\\spr_playerJumpStart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc29c37b-b6bb-43d1-bd26-f176a6bf85e0",
+            "Value": {
+                "id": "1d7f5e11-1b84-4616-ad40-4c8c3b01c9af",
+                "resourcePath": "sprites\\spr_geyserTopDie\\spr_geyserTopDie.yy",
                 "resourceType": "GMSprite"
             }
         },

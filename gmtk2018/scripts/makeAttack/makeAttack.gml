@@ -6,5 +6,11 @@ with instance_create_layer(x+(facing*200*.5),y-(sprite_height/2) - 30,layer_get_
 	creator = other.id;
 	other.hspeed -= sign(other.facing) * other.airKnockback;
 	depth = other.depth - 5;
+	
+	if(object_index = obj_fishHook)
+	{
+		downPressed = other.downDown	
+		upPressed = other.upDown
+	}
 }
 }

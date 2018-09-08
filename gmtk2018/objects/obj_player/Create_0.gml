@@ -63,7 +63,8 @@ invincibleFrames = 10; //number of frames the player will be invincible after ge
 tempInvincibility = 0; //this becomes 1 when hit by an attack which causes invincibility frames. resets to 0 with Alarm 5
 invincibleAlpha = 0.5;
 currentAlpha = 1;
-
+drawAngle = 0;
+fishing = 0;
 currentSprite = spr_playerIdle;
 currentImageIndex = 0;
 currentImageDirection = 1;
@@ -77,3 +78,9 @@ alarm_set(3,-1);
 alarm_set(6,1)
 
 playerParticle()
+
+
+with(instance_create_depth(x,y,depth,obj_playerOutline))
+{
+	creator = other.id;	
+}

@@ -57,11 +57,12 @@ else
 }
 if(onGround)
 	spawned = 0
-if(spawned)
+if(spawned || fishing)
 {
 	stunned = 1;
 	alarm_set(4,1)
-	setInvincible(self,30);
+	if(spawned)
+		setInvincible(self,30);
 }
 
 //no input if stunned or onFire
@@ -297,12 +298,21 @@ if place_meeting(x,y+vspeed,obj_platform)
     {
          y+=sign(vspeed);
     }
+	
 friction = fric
 vspeed=0;
 }
 else
 	friction = 0
 
+
+if(place_meeting(x,y,obj_platform))
+{
+	while(position_meeting(x,bbox_top,obj_platform)	)
+	{
+		y++;	
+	}
+}
 
 if(downDown && !onGround && vspeed < fallSpeed)
 	vspeed += fastFall;

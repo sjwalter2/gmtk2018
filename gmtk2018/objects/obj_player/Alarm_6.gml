@@ -14,3 +14,5 @@ if(playerNumber != 0)
 		}
 	}
 }
+
+depth += playerNumber
